@@ -80,15 +80,15 @@ export default {
 
       zombies: {
         // Military
-        'Granite': { amount: 50, type: 'critical_kills' },
-        'Woodland': { amount: 100, type: 'critical_kills' },
-        'Savanna': { amount: 150, type: 'critical_kills' },
-        'Splinter': { amount: 200, type: 'critical_kills' },
-        'Moss': { amount: 300, type: 'critical_kills' },
-        'Shade': { amount: 400, type: 'critical_kills' },
-        'Digital': { amount: 500, type: 'critical_kills' },
-        'Tide': { amount: 750, type: 'critical_kills' },
-        'Red Tiger': { amount: 1000, type: 'critical_kills' },
+        'Granite': { amount: 100, type: 'critical_kills' },
+        'Woodland': { amount: 200, type: 'critical_kills' },
+        'Savanna': { amount: 300, type: 'critical_kills' },
+        'Splinter': { amount: 400, type: 'critical_kills' },
+        'Moss': { amount: 600, type: 'critical_kills' },
+        'Shade': { amount: 800, type: 'critical_kills' },
+        'Digital': { amount: 1000, type: 'critical_kills' },
+        'Tide': { amount: 1500, type: 'critical_kills' },
+        'Red Tiger': { amount: 2000, type: 'critical_kills' },
 
         // Special
         ...specialCamouflages[weapon]?.zombies,
