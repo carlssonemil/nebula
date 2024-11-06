@@ -26,7 +26,7 @@ const specialCamouflages = {
 
     zombies: {
       'Harvest': { amount: 100, type: 'zombie_kills_while_affected_by_tactical' },
-      '?': null,
+      'Desert Sunset': { amount: 300, type: 'kills_with_dead_wire_equipped' },
     },
 
     warzone: {
