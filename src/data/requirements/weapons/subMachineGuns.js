@@ -20,7 +20,7 @@ const specialCamouflages = {
 
   'KSV': {
     multiplayer: {
-      Kakapo: { amount: 2, type: 'kills_without_reloading' },
+      Kakapo: { amount: 2, type: 'kills_without_reloading', times: 10 },
       Throwback: { amount: 50, type: 'kills_while_moving' },
     },
 
