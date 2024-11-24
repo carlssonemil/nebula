@@ -35,6 +35,11 @@ const routes = [
     component: () => import('../views/AboutView.vue'),
   },
   {
+    path: '/beamsmasher-calculator',
+    name: 'beamsmasher-calculator',
+    component: () => import('../views/BeamsmasherCalculatorView.vue'),
+  },
+  {
     path: '/requirements',
     name: 'requirements',
     component: () => import('../views/RequirementsView.vue'),
