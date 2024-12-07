@@ -40,6 +40,13 @@
       </a>
     </div>
 
+    <h4>{{ $t('pages.about.tools') }}</h4>
+    <p>
+      <i18n-t keypath="pages.about.tools_description" scope="global">
+        <router-link to="/tools">{{ $t('pages.about.tools_link') }}</router-link>
+      </i18n-t>
+    </p>
+
     <h4>{{ $t('pages.about.support_me') }}</h4>
     <p>
       <i18n-t keypath="pages.about.support_me_description" scope="global">
@@ -57,6 +64,7 @@ import coldWarIcon from '@/assets/coldwar.png'
 import damascusIcon from '@/assets/damascus.png'
 import orionIcon from '@/assets/orion.png'
 import interstellarIcon from '@/assets/interstellar.png'
+import router from '../router'
 
 export default {
   data() {

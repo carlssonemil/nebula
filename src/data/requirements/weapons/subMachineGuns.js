@@ -110,13 +110,13 @@ const specialCamouflages = {
     },
 
     zombies: {
-      '?': null,
-      '??': null,
+      'Whisper': { amount: 300, type: 'kills_with_dead_wire_equipped' },
+      'Limewave': { amount: 300, type: 'point_blank_kills' },
     },
 
     warzone: {
-      '?': null,
-      '??': null,
+      'Memento Mori': { amount: 5, type: 'hipfire_kills' },
+      'Dreamcurrent': { amount: 3, times: 5, type: 'kills_sm' },
     },
   },
 }

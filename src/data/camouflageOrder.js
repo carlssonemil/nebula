@@ -72,6 +72,8 @@ const specialOrder = [
   // Krig C
   'Monochrome',
   'Dreadshade',
+  'Sunny Splash',
+  'Crowsbane',
 
   // C9
   'Heatwave',
@@ -112,6 +114,8 @@ const specialOrder = [
   // Saug
   'Netherworld',
   'Solar Tide',
+  'Whisper',
+  'Limewave',
 
   // PU-21
   'Neon Bath',
@@ -209,7 +213,7 @@ const specialOrder = [
   'Wavy',
   'Condemn',
 
-  // CIGMA 28
+  // CIGMA 2B
   'Policia',
   'Abstract',
   'CBRNE',
@@ -232,6 +236,18 @@ const specialOrder = [
   'Slip',
   'Banished',
   'Contort',
+
+  // Power Drill
+  'Twilight Toadstool',
+  'Thermal',
+  'Glimmering Grove',
+  'Shimmer',
+
+  // Sirin 9mm
+  'Nebulon',
+  'Enchanted',
+  'Starsync',
+  'Tempt Fate'
 ]
 
 const masteryOrder = [

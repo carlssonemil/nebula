@@ -7,6 +7,7 @@ import melee from '@/data/requirements/weapons/melee'
 import shotguns from '@/data/requirements/weapons/shotguns'
 import sniperRifles from '@/data/requirements/weapons/sniperRifles'
 import subMachineGuns from '@/data/requirements/weapons/subMachineGuns'
+import specials from '@/data/requirements/weapons/specials'
 
 export default {
   ...assaultRifles,
@@ -18,4 +19,5 @@ export default {
   ...shotguns,
   ...sniperRifles,
   ...subMachineGuns,
+  ...specials,
 }

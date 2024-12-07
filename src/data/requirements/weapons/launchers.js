@@ -1,7 +1,7 @@
 import launchers from '@/data/weapons/launchers'
 
 const specialCamouflages = {
-  'CIGMA 28': {
+  'CIGMA 2B': {
     multiplayer: {
       Policia: { amount: 10, type: 'direct_hit_kills' },
       Abstract: { amount: 10, type: 'aerial_scorestreaks' },

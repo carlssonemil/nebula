@@ -7,6 +7,7 @@ import sniperRifles from './weapons/sniperRifles'
 import handguns from './weapons/handguns'
 import launchers from './weapons/launchers'
 import melee from './weapons/melee'
+import specials from './weapons/specials'
 
 import defaultProgress from '@/data/defaults/progress'
 
@@ -20,6 +21,7 @@ const categories = [
   { name: 'Handguns', weapons: handguns },
   { name: 'Launchers', weapons: launchers },
   { name: 'Melee', weapons: melee },
+  { name: 'Specials', weapons: specials },
 ]
 
 export default categories.flatMap(({ name: category, weapons }) =>

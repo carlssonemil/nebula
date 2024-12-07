@@ -127,8 +127,8 @@ const specialCamouflages = {
     },
 
     zombies: {
-      '?': null,
-      '??': null,
+      'Sunny Splash': { amount: 300, type: 'kills_with_cryo_freeze_equipped' },
+      Crowsbane: { amount: 100, type: 'zombie_kills_while_affected_by_tactical' },
     },
 
     warzone: {

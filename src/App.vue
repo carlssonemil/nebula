@@ -8,12 +8,13 @@
   <main>
     <div class="container" style="margin-bottom: 1.5rem">
       <AlertComponent>
-        The tracker is currently in active development and may have bugs or incomplete features. If
-        you encounter any issues, please
+        {{ $t('general.alert.development_notice') }}
+        {{ $t('general.alert.encounter_issues') }}
+        
         <a href="https://github.com/carlssonemil/nebula/issues/new?title=[Bug]%20" target="_blank"
-          >report it in GitHub</a
-        >. We are aware of missing camouflage images and incorrect requirements. Thank you for your
-        understanding, and happy grinding!
+          >{{ $t('general.alert.report_link_text') }}</a>. 
+        
+        {{ $t('general.alert.missing_images_notice') }} {{ $t('general.alert.thank_you') }}
       </AlertComponent>
     </div>
 

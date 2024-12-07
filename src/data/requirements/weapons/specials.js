@@ -1,60 +1,26 @@
-import sniperRifles from '@/data/weapons/sniperRifles'
+import specials from '@/data/weapons/specials'
 
 const specialCamouflages = {
-  'LW3A1 Frostline': {
+  'Sirin 9mm': {
     multiplayer: {
-      Copper: { amount: 50, type: 'kills_while_recon_combat_specialty_is_active' },
-      Permafrost: { amount: 2, type: 'kills_without_reloading', times: 10 },
+      Nebulon: { amount: 30, type: 'kills_shortly_after_sprinting' },
+      Enchanted: { amount: 50, type: 'kills_while_moving' },
     },
 
     zombies: {
-      Strata: { amount: 300, type: 'kills_at_rare_rarity_or_higher' },
-      Eventide: { amount: 30, type: 'parasite_kills' },
+      Starsync: { amount: 300, type: 'hipfire_kills' },
+      'Tempt Fate': { amount: 30, type: 'parasite_kills' },
     },
 
     warzone: {
-      '?': null,
-      '??': null,
-    },
-  },
-
-  'SVD': {
-    multiplayer: {
-      Pixelized: { amount: 50, type: 'kills_while_recon_combat_specialty_is_active' },
-      Patchwork: { amount: 50, type: 'kills_with_4x_or_higher_magnification_scope' },
-    },
-
-    zombies: {
-      Cartridge: { amount: 300, type: 'kills_while_pack_a_punched' },
-      Integration: { amount: 5, type: 'critical_kills_rapidly', times: 15 },
-    },
-
-    warzone: {
-      '?': null,
-      '??': null,
-    },
-  },
-
-  'LR 7.62': {
-    multiplayer: {
-      Chaparral: { amount: 30, type: 'one_shot_kills' },
-      Nimbus: { amount: 15, type: 'longshot_kills' },
-    },
-
-    zombies: {
-      Foxglove: { amount: 10, type: 'mangler_kills' },
-      Overcast: { amount: 300, type: 'kills_with_brain_rot_equipped' },
-    },
-
-    warzone: {
-      '?': null,
-      '??': null,
+      Synthora: { amount: 5, type: 'kills_while_moving' },
+      Guidance: { amount: 5, type: 'consecutive_kills_without_taking_damage', times: 5},
     },
   },
 }
 
 export default {
-  ...sniperRifles.reduce((acc, weapon) => {
+  ...specials.reduce((acc, weapon) => {
     acc[weapon] = {
       multiplayer: {
         // Military
@@ -116,10 +82,10 @@ export default {
         ...specialCamouflages[weapon]?.warzone,
 
         // Mastery
-        'Gold Tiger': null,
-        "King's Ransom": null,
-        'Catalyst': null,
-        'Abyss': null,
+        'Gold Tiger': { amount: 5, type: 'kills_while_most_wanted' },
+        "King's Ransom": { amount: 3, type: 'kills_without_dying', times: 2},
+        'Catalyst': { amount: 5, type: 'kills_on_affected_enemies_with_tacticals' },
+        'Abyss': { amount: 5, type: 'kills_without_dying', times: 1},
       },
     }
 

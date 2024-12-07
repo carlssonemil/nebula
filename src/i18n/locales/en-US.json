@@ -1,6 +1,13 @@
 {
   "general": {
     "about": "About",
+    "alert": {
+      "development_notice": "The tracker is currently in active development and may have bugs or incomplete features.",
+      "encounter_issues": "If you encounter any issues, please ",
+      "missing_images_notice": "We are aware of missing camouflage images and incorrect requirements.",
+      "thank_you": "Thank you for your understanding, and happy grinding!",
+      "report_link_text": "report it in GitHub"
+    },
     "add_to": "Add to",
     "all": "All",
     "calling_cards": "Calling Card | Calling Cards",
@@ -32,6 +39,7 @@
     "support_notice_link": "buying me a beer",
     "support_notice": "If you like this tracker, show your appreciation by {link} 🍺",
     "translated_by": ", translated by {0}",
+    "tools": "Tools",
     "weapon": "Weapon | Weapons",
     "unlocked": "unlocked",
     "warzone": "Warzone",
@@ -56,7 +64,9 @@
     "toggle_layout": "Toggle layout"
   },
   "locales": {
-    "en-US": "English"
+    "en-US": "English",
+    "ar-SA": "العربية",
+    "pt-BR": "Português"
   },
   "pages": {
     "404": {
@@ -116,7 +126,10 @@
       "support_me_description": "You can support me by {0} 🍺, it'd be greatly appreciated!",
       "support_me_link": "buying me a beer",
       "support_me": "Support me",
-      "title": "Simple, lightweight & intuitive"
+      "title": "Simple, lightweight & intuitive",
+      "tools": "Tools",
+      "tools_description": "Looking for other useful tools created by some amazing people to help you complete your camouflages faster? You can find a list of them {0} on our tools page.",
+      "tools_link": "here"
     },
     "calling_cards": {
       "completed_in_category": "Calling Cards completed in category",
@@ -210,6 +223,10 @@
         }
       }
     },
+    "tools": {
+      "title": "Tools",
+      "subtitle": "Useful tools by some other amazing people to help you complete your camouflages faster."
+    },
     "warzone": {
       "completed_modal": {
         "body": "Congratulations on finishing all Warzone camouflages! That's quite the feat! You first started tracking your grind here {duration} on {date}.",
@@ -275,7 +292,11 @@
       "kills_shortly_after_sprinting": "{amount} kills shortly after sprinting",
       "kills_shortly_after_switching_weapons": "{amount} kills shortly after switching weapons",
       "kills_while_enforcer_combat_specialty_is_active": "{amount} kills while Enforcer Combat Specialty is active",
+      "kills_while_recon_combat_speciality_is_active": "{amount} kills while Recon Combat Specialty is active",
+      "kills_without_taking_damage": "{amount} kills without taking damage {times} times",
+      "kills_in_a_single_match": "{amount} kills in a single match {times} times",
       "kills_while_moving": "{amount} kills while moving",
+      "kills_while_most_wanted": "{amount} eliminations while being the Most Wanted Contract target",
       "kills_while_pack_a_punched": "{amount} kills while Pack-a-Punched",
       "kills_while_recon_combat_specialty_is_active": "{amount} kills while Recon Combat Specialty is active",
       "kills_while_strategist_combat_specialty_is_active": "{amount} kills while Strategist Combat Specialty is active",
@@ -289,6 +310,7 @@
       "kills_without_dying": "{amount} kills without dying {times} times",
       "kills_without_releasing_trigger": "{amount} kills without releasing the trigger {times} times",
       "kills_without_reloading": "{amount} kills without reloading {times} times",
+      "kills_on_affected_enemies_with_tacticals": "{amount} kills on enemies affected by your Stun, Flashbang, or Shock Charge",
       "longshot_kills": "{amount} longshot kills",
       "mangler_kills": "{amount} Mangler kills",
       "one_kill_without_taking_damage": "One kill without taking damage {times} times",
@@ -317,6 +339,7 @@
     "Melee": "Melee",
     "Shotguns": "Shotguns",
     "Sniper Rifles": "Sniper Rifles",
-    "Sub Machine Guns": "Sub Machine Guns"
+    "Sub Machine Guns": "Sub Machine Guns",
+    "Specials": "Specials"
   }
 }
