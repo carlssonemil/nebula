@@ -147,6 +147,12 @@ const specialOrder = [
   'Dream Eater',
   'Coin-Op',
 
+  // Maelstrom
+  'Voidpulse',
+  'Moonlit Grace',
+  'Cinder Surge',
+  'Lunar Flutter',
+
   // SWAT 5.56
   'Ectoplasm',
   'Lumberjack',
