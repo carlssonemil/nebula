@@ -65,7 +65,8 @@
   "locales": {
     "en-US": "English",
     "ar-SA": "العربية",
-    "pt-BR": "Português"
+    "pt-BR": "Português",
+    "fr-FR": "Français"
   },
   "pages": {
     "404": {
