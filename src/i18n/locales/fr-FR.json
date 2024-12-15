@@ -1,0 +1,346 @@
+{
+  "general": {
+    "about": "À propos",
+    "alert": {
+        "development_notice": "Le tracker est actuellement en développement actif et peut comporter des bugs ou des fonctionnalités incomplètes.",
+        "encounter_issues": "Si vous rencontrez des problèmes, veuillez ",
+        "missing_images_notice": "Nous sommes conscients des images de camouflage manquantes et des exigences incorrectes.",
+        "thank_you": "Merci pour votre compréhension, et bon grind !",
+        "report_link_text": "les signaler sur GitHub"
+    },
+    "add_to": "Ajouter à",
+    "all": "Tous",
+    "calling_cards": "Carte de visite | Cartes de visite",
+    "camouflage": "Camouflage | Camouflages",
+    "category": "Catégorie | Catégories",
+    "change_language": "Changer de langue",
+    "close": "Fermer",
+    "coming_soon": "À venir",
+    "complete": "Terminé",
+    "days_ago": "il y a {0} jour | il y a {0} jours",
+    "favorites": "Favoris",
+    "filters": "Filtres",
+    "grid": "Grille",
+    "hide": "Cacher",
+    "list": "Liste",
+    "made_by": "Fait par {0}",
+    "mastery": "Maîtrise",
+    "mobile_nav_support_link": "Soutenez-moi en m'offrant une bière 🍺",
+    "multiplayer": "Multijoueur",
+    "no_favorites_placeholder": "Vous n'avez pas encore de favoris. Cliquez sur l'icône {star} sur un {type} pour l'ajouter à vos favoris.",
+    "remove_all": "Tout supprimer",
+    "remove_from": "Retirer de",
+    "report_an_issue": "Signaler un problème",
+    "requirement": "Exigence | Exigences",
+    "reset": "Réinitialiser",
+    "search": "Rechercher",
+    "setting": "Paramètre | Paramètres",
+    "show": "Afficher",
+    "support_notice_link": "m'offrir une bière",
+    "support_notice": "Si vous aimez ce tracker, montrez votre soutien en {link} 🍺",
+    "translated_by": ", traduit par {0}",
+    "tools": "Outils",
+    "weapon": "Arme | Armes",
+    "unlocked": "débloqué",
+    "warzone": "Warzone",
+    "zombies": "Zombies"
+  },
+  "filters": {
+    "hide_abyss": "Masquer Abysses",
+    "hide_afterlife": "Masquer Post mortem",
+    "hide_catalyst": "Masquer Catalyseur",
+    "hide_completed": "Masquer terminé",
+    "hide_dark_matter": "Masquer Matière noire",
+    "hide_dark_spine": "Masquer Vertèbre Noires",
+    "hide_diamond": "Masquer Diamant",
+    "hide_gold_tiger": "Masquer Tigre doré",
+    "hide_gold": "Masquer Or",
+    "hide_kings_ransom": "Masquer Rançon du roi",
+    "hide_mystic_gold": "Masquer Or mystique",
+    "hide_nebula": "Masquer Nébuleuse",
+    "hide_opal": "Masquer Opale",
+    "toggle_favorite": "{state} favoris",
+    "toggle_favorites": "Basculer les favoris",
+    "toggle_layout": "Changer la disposition"
+  },
+  "locales": {
+    "en-US": "English",
+    "ar-SA": "العربية",
+    "pt-BR": "Português",
+    "fr-FR": "Français"
+  },
+  "pages": {
+    "404": {
+      "description": "Zut, on dirait que vous {0}.",
+      "scenarios": [
+        "avez pris un mauvais tournant à Nuketown et êtes tombé sur une page manquante 🏨",
+        "êtes resté coincé en réapparition et êtes tombé sur une page manquante 💥",
+        "avez essayé de quick-scoper l'URL et êtes tombé sur une page manquante 🔭",
+        "avez utilisé Dead Silence trop efficacement et êtes tombé sur une page manquante ⛔🔊",
+        "avez plongé dans un bug et êtes tombé sur une page manquante 🕳️",
+        "avez été flashé dans les menus et êtes tombé sur une page manquante ⚡",
+        "avez été aperçu pour la dernière fois en parachutage à Verdansk et êtes tombé sur une page manquante 🪂",
+        "êtes resté coincé dans un Goulag et êtes tombé sur une page manquante 🚿",
+        "avez essayé de courir sur un mur plat et êtes tombé sur une page manquante 🏃‍♂️",
+        "avez pris la mauvaise caisse de largage et êtes tombé sur une page manquante 📦",
+        "avez été pris dans un feu croisé entre des pages et êtes tombé sur une page manquante 🔫",
+        "avez suivi le capitaine Price en mission secrète et êtes tombé sur une page manquante 🕵️",
+        "n'avez pas utilisé votre UAV, vous vous êtes perdu et êtes tombé sur une page manquante 🛰",
+        "avez essayé de vous exfiltrer sans hélico et êtes tombé sur une page manquante 🛁",
+        "avez pris le tunnel secret vers les Zombies et êtes tombé sur une page manquante 👿",
+        "avez manqué l'appel... du devoir et êtes tombé sur une page manquante 📞",
+        "avez essayé de piller une cache inexistante et êtes tombé sur une page manquante 💼",
+        "avez parachuté dans un territoire inexploré et êtes tombé sur une page manquante 🗺️",
+        "avez essayé de rejoindre Ghost et êtes tombé sur une page manquante 👻",
+        "avez cherché des Easter eggs au mauvais endroit et êtes tombé sur une page manquante 🥚"
+      ],
+      "link": "Retour à l'accueil"
+    },
+    "about": {
+      "features": {
+        "autosaving": {
+          "title": "Sauvegarde automatique",
+          "description": "Votre progression est sauvegardée automatiquement. Aucun compte requis."
+        },
+        "responsive": {
+          "title": "Responsive",
+          "description": "Le tracker fonctionne sur tous les appareils, du bureau au mobile."
+        },
+        "export_import": {
+          "title": "Exporter/Importer",
+          "description": "Exportez votre progression vers un fichier et importez-la sur un autre appareil."
+        },
+        "filterable": {
+          "title": "Filtrable",
+          "description": "Passez facilement d'une catégorie d'armes à l'autre et activez/désactivez les complétés."
+        },
+        "ad_free": {
+          "title": "Sans publicité",
+          "description": "Pas de publicités encombrantes sur le site. Ni maintenant, ni jamais."
+        }
+      },
+      "open_source_description": "Créé avec {0}, hébergé sur {1} et analytics par {2}. Le code de ce site est disponible sur {3}.",
+      "open_source": "Open source",
+      "previous_trackers_description": "Vous cherchez des trackers de camouflages pour les précédents jeux Call of Duty depuis 2019 ?",
+      "previous_trackers": "Trackers précédents",
+      "subtitle": "Suivez votre progression vers les camouflages Dark Matter, Nebula et Abyss avec ce tracker simple et intuitif.",
+      "support_me_description": "Vous pouvez me soutenir en {0} 🍺, ce serait très apprécié !",
+      "support_me_link": "m'offrant une bière",
+      "support_me": "Me soutenir",
+      "title": "Simple, léger et intuitif",
+      "tools": "Outils",
+      "tools_description": "Vous cherchez d'autres outils utiles créés par des gens incroyables pour vous aider à compléter vos camouflages plus rapidement ? Vous pouvez en trouver une liste {0} sur notre page outils.",
+      "tools_link": "ici"
+    },
+    "calling_cards": {
+      "completed_in_category": "Cartes de visite complétées dans la catégorie",
+      "empty_search": "Votre recherche n'a pas donné de résultats pour les Cartes de visite 🤔",
+      "finished_placeholder": "Vous avez complété tous les défis des Cartes de visite 👏"
+    },
+    "mastery": {
+      "completed_modal": {
+        "body": "Félicitations pour avoir terminé tous les défis de maîtrise ! C'est un exploit impressionnant ! Vous avez commencé à suivre votre progression ici il y a {duration} le {date}.",
+        "support_link": "m'offrant une bière",
+        "support": "Si vous avez aimé ce tracker, montrez votre reconnaissance en en parlant autour de vous et, si vous vous sentez généreux, envisagez {0} pour me remercier. J'espère vous voir sur le champ de bataille ! Cheers ! 🍺",
+        "title": "Défis de maîtrise complétés 👏🥳"
+      },
+      "info": "Une fois que vous avez déverrouillé chaque camouflage de maîtrise, un défi de maîtrise est déverrouillé qui vous demande d'obtenir un certain nombre de kills en utilisant ce camouflage spécifique pour le compléter.",
+      "progress": {
+        "label": "Progression de maîtrise",
+        "tooltip": "Progression vers la complétion de tous les défis de maîtrise"
+      }
+    },
+    "requirements": {
+      "checklist": {
+        "military": "Camouflages militaires sur 33 armes",
+        "special": "Camouflages spéciaux sur 33 armes",
+        "gold": "Camouflage Or sur 33 armes",
+        "diamond": "Camouflage Diamant sur 33 armes",
+        "dark_spine": "Camouflage Vertèbre Noires sur 33 armes"
+      },
+      "description": "Pour débloquer l'un des camouflages de maîtrise, vous devez déverrouiller la phase de camouflage précédente. Par exemple, pour débloquer le camouflage Matière Noire, les exigences suivantes doivent être remplies : {checklist}. Au fur et à mesure que vous progressez dans les phases de camouflage, vous débloquez la phase suivante :",
+      "stages": {
+        "military": "Militaire",
+        "special": "Spécial",
+        "gold": "Or",
+        "diamond": "Diamant",
+        "dark_spine": "Vertèbre Noires",
+        "dark_matter": "Matière Noire"
+      },
+      "table": {
+        "headers": {
+          "requirement": "Exigence",
+          "stage": "Phase"
+        },
+        "stage_requirements": {
+          "military": "Les camouflages militaires nécessitent de compléter progressivement chaque défi.",
+          "special": "Une fois les camouflages militaires déverrouillés, vous débloquez les défis des camouflages spéciaux pour cette arme spécifique.",
+          "gold": "Une fois les camouflages spéciaux déverrouillés, vous débloquez le défi du camouflage Or pour cette arme spécifique.",
+          "diamond": "Après avoir terminé tous les défis de camouflages Or pour une catégorie spécifique, vous débloquez le défi du camouflage Diamant pour cette arme.",
+          "dark_spine": "Une fois le camouflage Diamant déverrouillé pour toutes les catégories et armes, vous débloquez le défi du camouflage Vertèbre Noires pour chaque arme.",
+          "dark_matter": "Enfin, après avoir terminé tous les défis de camouflage précédents, le défi Matière Noire est débloqué."
+        },
+        "subtitle": "Pour passer à la phase de camouflage suivante, vous devez d'abord déverrouiller la phase précédente :",
+        "title": "Comment débloquer chaque phase de camouflage ?"
+      },
+      "title": "Comment débloquer les camouflages de maîtrise ?"
+    },
+    "settings": {
+      "export": {
+        "copy_to_clipboard": "Copier dans le presse-papiers",
+        "description": "Exportez vos progrès vers un autre appareil ou navigateur.",
+        "download_as_file": "Télécharger en tant que fichier",
+        "title": "Exporter les progrès"
+      },
+      "import": {
+        "description": "Importez vos progrès depuis un autre appareil ou navigateur, en collant le code exporté ou en téléchargeant le fichier exporté.",
+        "import_code": "Importer le code",
+        "import_disabled_tooltip": "Vous devez saisir un code dans le champ ci-dessus.",
+        "import_from_file": "Importer depuis un fichier",
+        "placeholder": "Collez le code ici ou importez depuis un fichier ci-dessous.",
+        "title": "Importer les progrès"
+      },
+      "reset": {
+        "confirm": {
+          "body": "Êtes-vous sûr de vouloir réinitialiser tous vos progrès ?",
+          "cancel": "Annuler",
+          "reset": "Réinitialiser",
+          "title": "Réinitialiser tous les progrès"
+        },
+        "description": "Cette action réinitialisera tous vos progrès et repartira de zéro.",
+        "reset_my_progress": "Réinitialiser mes progrès",
+        "title": "Réinitialiser tous les progrès",
+        "warning": "Cette action est irréversible si vous n'avez pas exporté vos progrès."
+      },
+      "weapon_completion": {
+        "title": "Achèvement des armes",
+        "description": "Choisissez quel camouflage doit être considéré comme terminé pour chaque arme. Cela est utile si vous souhaitez suivre vos progrès vers une phase de camouflage spécifique. Par exemple, si vous voulez suivre vos progrès par étapes jusqu'à l'objectif final, plutôt que seulement la phase finale.",
+        "label": "Phase d'achèvement des armes",
+        "options": {
+          "1": "Or / Or Mythique / Tigre d'Or",
+          "2": "Diamant / Opale / Rançon du Roi",
+          "3": "Vertèbre Noires / Au-Delà / Catalyseur",
+          "4": "Matière Noire / Nébuleuse / Abysses"
+        }
+      }
+    },
+    "tools": {
+      "title": "Outils",
+      "subtitle": "Outils utiles créés par d'autres personnes incroyables pour vous aider à compléter vos camouflages plus rapidement."
+    },
+    "warzone": {
+      "completed_modal": {
+        "body": "Félicitations pour avoir terminé tous les camouflages Warzone ! Quel exploit ! Vous avez commencé à suivre votre progression ici il y a {duration}, le {date}.",
+        "support_link": "m'offrir une bière",
+        "support": "Si vous avez aimé ce tracker, montrez votre appréciation en en parlant autour de vous, et si vous vous sentez généreux, envisagez {0} pour me remercier. J'espère vous voir sur le champ de bataille ! Santé ! 🍺",
+        "title": "Camouflages Warzone terminés 👏🥳"
+      },
+      "progress": {
+        "label": "Progression Abysses",
+        "tooltip": "Progression vers l'accomplissement de tous les camouflages Warzone"
+      }
+    },
+    "multiplayer": {
+      "completed_in_category": "Armes terminées dans la catégorie",
+      "completed_modal": {
+        "body": "Félicitations pour avoir terminé le grind du camouflage Matière Noire ! Ce fut un long chemin ! Vous avez commencé à suivre votre progression ici il y a {duration}, le {date}.",
+        "support_link": "m'offrir une bière",
+        "support": "Si vous avez aimé ce tracker, montrez votre appréciation en en parlant autour de vous, et si vous vous sentez généreux, envisagez {0} pour me remercier. J'espère vous voir sur le champ de bataille ! Santé ! 🍺",
+        "title": "Camouflages Multijoueur terminés ! 👏🥳"
+      },
+      "double_click_category_tooltip": "Double-cliquez pour marquer la catégorie comme terminée",
+      "double_click_tooltip": "Double-cliquez pour {state} l'arme",
+      "finished_placeholder": "Vous avez terminé tous les défis de camouflage 👏",
+      "info_link": "ici",
+      "info_tooltip": "Vous devez seulement terminer le nombre d'armes de base de chaque catégorie pour débloquer le défi camouflage Forgé. Par exemple, les Fusils d'Assaut nécessitent un total de 6 camouflages Dorés pour débloquer le défi camouflage Forgé pour toutes les armes de cette catégorie. Appuyez sur cette icône pour en savoir plus.",
+      "info": "Vous devez seulement terminer le nombre d'armes de base de chaque catégorie pour débloquer le défi camouflage Forgé. Par exemple, les Fusils d'Assaut nécessitent un total de 6 camouflages Dorés pour débloquer le défi camouflage Forgé pour toutes les armes de cette catégorie. En savoir plus {link}.",
+      "progress": {
+        "label": "Progression Matière Noire",
+        "tooltip": "Progression vers l'accomplissement de tous les camouflages multijoueurs"
+      }
+    },
+    "zombies": {
+      "completed_modal": {
+        "body": "Félicitations pour avoir terminé le grind du camouflage Nébuleuse ! Quel exploit ! Vous avez commencé à suivre votre progression ici il y a {duration}, le {date}.",
+        "support_link": "m'offrir une bière",
+        "support": "Si vous avez aimé ce tracker, montrez votre appréciation en en parlant autour de vous, et si vous vous sentez généreux, envisagez {0} pour me remercier. J'espère vous voir sur le champ de bataille ! Santé ! 🍺",
+        "title": "Camouflages Zombies terminés 👏🥳"
+      },
+      "progress": {
+        "label": "Progression Nébuleuse",
+        "tooltip": "Progression vers l'accomplissement de tous les camouflages zombies"
+      }
+    }
+  },
+  "challenges": {
+    "types": {
+      "aerial_scorestreaks": "{amount} séries de points aériennes détruites",
+      "armored_zombie_kills": "{amount} éliminations de Zombies Blindés",
+      "consecutive_kills_without_taking_damage": "{amount} éliminations consécutives sans subir de dégâts {times} fois",
+      "critical_kills_rapidly": "{amount} éliminations critiques rapides {times} fois",
+      "critical_kills": "{amount} éliminations critiques",
+      "destructions_sm": "{amount} séries de points ou véhicules ennemis détruits en une seule partie {times} fois",
+      "direct_hit_kills": "{amount} éliminations par impact direct",
+      "double_kills": "{amount} doubles éliminations",
+      "eliminations": "{amount} éliminations",
+      "elite_zombie_kills": "{amount} éliminations de Zombies Élites",
+      "headshots": "{amount} tirs à la tête",
+      "hipfire_kills": "{amount} éliminations en tir instinctif",
+      "kills": "{amount} éliminations",
+      "kills_sm": "{amount} éliminations en une seule partie {times} fois",
+      "kills_at_rare_rarity_or_higher": "{amount} éliminations avec une arme de rareté Rare ou supérieure",
+      "kills_in_a_single_shot": "{amount} éliminations en un seul tir {times} fois",
+      "kills_shortly_after_sprinting": "{amount} éliminations peu après avoir couru",
+      "kills_shortly_after_switching_weapons": "{amount} éliminations peu après avoir changé d'arme",
+      "kills_while_enforcer_combat_specialty_is_active": "{amount} éliminations avec la spécialité de combat Renfort activée",
+      "kills_while_recon_combat_speciality_is_active": "{amount} éliminations avec la spécialité de combat Reconnaissance activée",
+      "kills_without_taking_damage": "{amount} éliminations sans subir de dégâts {times} fois",
+      "kills_in_a_single_match": "{amount} éliminations en une seule partie {times} fois",
+      "kills_while_moving": "{amount} éliminations en mouvement",
+      "kills_while_most_wanted": "{amount} éliminations en tant que cible de contrat Most Wanted",
+      "kills_while_pack_a_punched": "{amount} éliminations avec une arme améliorée (Pack-a-Punched)",
+      "kills_while_recon_combat_specialty_is_active": "{amount} éliminations avec la spécialité de combat Reconnaissance activée",
+      "kills_while_strategist_combat_specialty_is_active": "{amount} éliminations avec la spécialité de combat Stratège activée",
+      "kills_with_4x_or_higher_magnification_scope": "{amount} éliminations avec une lunette de grossissement 4x ou plus",
+      "kills_with_brain_rot_equipped": "{amount} éliminations avec la compétence Brain Rot activée",
+      "kills_with_cryo_freeze_equipped": "{amount} éliminations avec la compétence Cryo Freeze activée",
+      "kills_with_dead_wire_equipped": "{amount} éliminations avec la compétence Dead Wire activée",
+      "kills_with_napalm_burst_equipped": "{amount} éliminations avec la compétence Napalm Burst activée",
+      "kills_with_suppressor": "{amount} éliminations avec un silencieux",
+      "kills_with_underbarrel_launcher": "{amount} éliminations avec un lance-grenades sous le canon",
+      "kills_without_dying": "{amount} éliminations sans mourir {times} fois",
+      "kills_without_releasing_trigger": "{amount} éliminations sans relâcher la gâchette {times} fois",
+      "kills_without_reloading": "{amount} éliminations sans recharger {times} fois",
+      "kills_on_affected_enemies_with_tacticals": "{amount} éliminations sur des ennemis affectés par vos équipements tactiques (Flashbang, Stun ou Shock Charge)",
+      "longshot_kills": "{amount} éliminations à longue distance",
+      "mangler_kills": "{amount} éliminations avec le Mangler",
+      "one_kill_without_taking_damage": "Une élimination sans subir de dégâts {times} fois",
+      "one_shot_kills": "{amount} éliminations en un seul coup",
+      "parasite_kills": "{amount} éliminations de Parasites",
+      "point_blank_kills": "{amount} éliminations à bout portant",
+      "rapid_kills": "{amount} éliminations rapides {times} fois",
+      "scorestreaks": "{amount} séries de points ennemies détruites",
+      "scorestreaks_or_enemy_equipment": "{amount} séries de points ou équipements ennemis détruits",
+      "special_zombie_eliminations": "{amount} éliminations de Zombies Spéciaux",
+      "special_zombie_kills": "{amount} éliminations de Zombies Spéciaux",
+      "triple_kills": "{amount} triples éliminations",
+      "vermin_eliminations": "{amount} éliminations de Vermines",
+      "vermin_kills": "{amount} éliminations de Vermines",
+      "zombie_kills_while_affected_by_tactical": "{amount} éliminations de Zombies affectés par vos équipements tactiques"
+    }
+  },
+  "calling_card_categories": {},
+  "weapon_categories": {
+    "Assault Rifles": "Fusils d'Assaut",
+    "Battle Rifles": "Fusils de Combat",
+    "Handguns": "Pistolets",
+    "Launchers": "Lanceurs",
+    "Light Machine Guns": "Mitrailleuses Légères",
+    "Marksman Rifles": "Fusils de Précision",
+    "Melee": "Corps à Corps",
+    "Shotguns": "Fusils à Pompe",
+    "Sniper Rifles": "Fusils de Sniper",
+    "Sub Machine Guns": "Mitraillettes",
+    "Specials": "Spéciales"
+  }
+}
