@@ -34,6 +34,23 @@ const specialCamouflages = {
       '??': null,
     },
   },
+
+  'Maelstrom': {
+    multiplayer: {
+      'Voidpulse': { amount: 30, type: 'point_blank_kills' },
+      'Moonlit Grace': { amount: 50, type: 'kills_while_enforcer_combat_specialty_is_active' }
+    },
+
+    zombies: {
+      'Cinder Surge': { amount: 10, type: 'kills_without_reloading', times: 15 },
+      'Lunar Flutter': { amount: 300, type: 'hipfire_kills' }
+    },
+
+    warzone: {
+      'Lush Rift': { amount: 10, type: 'hipfire_kills' },
+      'Amethyst Glow': { amount: 10, type: 'kills_shortly_after_sprinting' }
+    }
+  }
 }
 
 export default {
