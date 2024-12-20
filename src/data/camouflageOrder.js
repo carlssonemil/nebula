@@ -195,6 +195,12 @@ const specialOrder = [
   'Foxglove',
   'Overcast',
 
+  // AMR Mod 4
+  'Shadowthorn',
+  'Tidal Harmony',
+  'Scarthorn',
+  'Marine Swirl',
+
   // 9mm PM
   'Exabyte',
   'Blue Ring',
