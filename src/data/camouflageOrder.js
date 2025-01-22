@@ -117,6 +117,8 @@ const specialOrder = [
   'Whisper',
   'Limewave',
 
+  // PPSh-41
+
   // PU-21
   'Neon Bath',
   'Vigilance',
@@ -242,24 +244,36 @@ const specialOrder = [
   'Tropical Leopard',
   'Dying Bloom',
   'Vacation Leopard',
+  'Dying Ember',
+  'Sunrise Leopard',
 
   // Baseball Bat
   'Torment',
   'Slip',
   'Banished',
   'Contort',
+  'Spooked',
+  'Skew',
 
   // Power Drill
   'Twilight Toadstool',
   'Thermal',
   'Glimmering Grove',
   'Shimmer',
+  'Faerie Fungi',
+  'Alloy',
+
+  // Cleaver
+  'Creepy Crypt',
+  'Luminous Leopard',
+  'Tragic Tomb',
+  'Shock Leopard',
 
   // Sirin 9mm
   'Nebulon',
   'Enchanted',
   'Starsync',
-  'Tempt Fate'
+  'Tempt Fate',
 ]
 
 const masteryOrder = [
