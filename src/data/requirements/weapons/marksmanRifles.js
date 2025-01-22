@@ -68,6 +68,23 @@ const specialCamouflages = {
       '??': null,
     },
   },
+
+  'TR2': {
+    multiplayer: {
+      '?': null,
+      '??': null,
+    },
+
+    zombies: {
+      '?': null,
+      '??': null,
+    },
+
+    warzone: {
+      '?': null,
+      '??': null,
+    },
+  },
 }
 
 export default {

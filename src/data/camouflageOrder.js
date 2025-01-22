@@ -75,6 +75,8 @@ const specialOrder = [
   'Sunny Splash',
   'Crowsbane',
 
+  //Cypher 091
+
   // C9
   'Heatwave',
   'Panther',
@@ -135,6 +137,8 @@ const specialOrder = [
   'Impressionist',
   'Other World',
 
+  // Feng 82
+
   // Marine SP
   'Blueberry Lime',
   'Chromed Out',
@@ -176,6 +180,8 @@ const specialOrder = [
   'Cobalt',
   'Furybloom',
   'Manta',
+
+  // TR2
 
   // LW3A1 Frostline
   'Copper',
@@ -259,7 +265,7 @@ const specialOrder = [
   'Nebulon',
   'Enchanted',
   'Starsync',
-  'Tempt Fate'
+  'Tempt Fate',
 ]
 
 const masteryOrder = [
