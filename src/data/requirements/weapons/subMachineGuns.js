@@ -119,6 +119,23 @@ const specialCamouflages = {
       'Dreamcurrent': { amount: 3, times: 5, type: 'kills_sm' },
     },
   },
+
+  'PPSh-41': {
+    multiplayer: {
+      '?': null,
+      '??': null,
+    },
+
+    zombies: {
+      '?': null,
+      '??': null,
+    },
+
+    warzone: {
+      '?': null,
+      '??': null,
+    },
+  },
 }
 
 export default {
