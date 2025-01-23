@@ -51,6 +51,23 @@ const specialCamouflages = {
       '??': null,
     },
   },
+
+  'Feng 82': {
+    multiplayer: {
+      '?': null,
+      '??': null,
+    },
+
+    zombies: {
+      '?': null,
+      '??': null,
+    },
+
+    warzone: {
+      '?': null,
+      '??': null,
+    },
+  },
 }
 
 export default {
