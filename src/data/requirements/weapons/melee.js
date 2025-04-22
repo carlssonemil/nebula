@@ -68,6 +68,108 @@ const specialCamouflages = {
       'Blazing Leopard': { amount: 5, type: 'kills_under_uav' },
     },
   },
+
+  'Skateboard': {
+    multiplayer: {
+      '?': null,
+      '??': null,
+    },
+
+    zombies: {
+      Aphotic: { amount: 100, type: 'zombie_kills_after_using_field_upgrade' },
+      Elation: { amount: 300, type: 'kills_while_pack_a_punched' },
+    },
+
+    warzone: {
+      '?': null,
+      '??': null,
+    },
+  },
+
+  'Katanas': {
+    multiplayer: {
+      '?': null,
+      '??': null,
+    },
+
+    zombies: {
+      'Tiki Mist': { amount: 300, type: 'kills_at_rare_rarity_or_higher' },
+      'Brinehelm': { amount: 300, type: 'kills_with_cryo_freeze_equipped' },
+    },
+
+    warzone: {
+      '?': null,
+      '??': null,
+    },
+  },
+
+  'Bo Staff': {
+    multiplayer: {
+      '?': null,
+      '??': null,
+    },
+
+    zombies: {
+      Destruction: { amount: 300, type: 'kills_with_dead_wire_equipped' },
+      Heirloom: { amount: 30, type: 'parasite_kills' },
+    },
+
+    warzone: {
+      '?': null,
+      '??': null,
+    },
+  },
+
+  'Sai': {
+    multiplayer: {
+      '?': null,
+      '??': null,
+    },
+
+    zombies: {
+      Slime: { amount: 300, type: 'kills_with_napalm_burst_equipped' },
+      Trenchfall: { amount: 10, type: 'mangler_kills' },
+    },
+
+    warzone: {
+      '?': null,
+      '??': null,
+    },
+  },
+
+  'Nunchaku': {
+    multiplayer: {
+      '?': null,
+      '??': null,
+    },
+
+    zombies: {
+      Skybound: { amount: 300, type: 'kills_with_brain_rot_equipped' },
+      Focus: { amount: 30, type: 'vermin_eliminations' },
+    },
+
+    warzone: {
+      '?': null,
+      '??': null,
+    },
+  },
+
+  'Kali Sticks': {
+    multiplayer: {
+      '?': null,
+      '??': null,
+    },
+
+    zombies: {
+      Reefshade: { amount: 30, type: 'vermin_eliminations' },
+      Iceline: { amount: 300, type: 'kills_with_cryo_freeze_equipped' },
+    },
+
+    warzone: {
+      '?': null,
+      '??': null,
+    },
+  },
 }
 
 export default {
