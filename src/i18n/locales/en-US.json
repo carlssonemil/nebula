@@ -326,7 +326,8 @@
       "triple_kills": "{amount} triple kills",
       "vermin_eliminations": "{amount} Vermin eliminations",
       "vermin_kills": "{amount} Vermin kills",
-      "zombie_kills_while_affected_by_tactical": "{amount} Zombie kills while they are affected by your Tactical"
+      "zombie_kills_while_affected_by_tactical": "{amount} Zombie kills while they are affected by your Tactical",
+      "zombie_kills_after_using_field_upgrade": "Get {amount} Kills shortly after using a Field Upgrade"
     }
   },
   "calling_card_categories": {},

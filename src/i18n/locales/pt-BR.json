@@ -321,7 +321,8 @@
         "triple_kills": "{amount} abates triplos",
         "vermin_eliminations": "{amount} eliminações de Pragas",
         "vermin_kills": "{amount} abates de Pragas",
-        "zombie_kills_while_affected_by_tactical": "{amount} abates de Zumbis enquanto estão afetados por sua tática"
+        "zombie_kills_while_affected_by_tactical": "{amount} abates de Zumbis enquanto estão afetados por sua tática",
+        "zombie_kills_after_using_field_upgrade": "{amount} eliminações logo após usar a melhoria de campo"
       }
     },
     "calling_card_categories": {},

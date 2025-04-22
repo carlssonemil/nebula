@@ -128,7 +128,7 @@ const specialCamouflages = {
 
     zombies: {
       'Sunny Splash': { amount: 300, type: 'kills_with_cryo_freeze_equipped' },
-      Crowsbane: { amount: 100, type: 'zombie_kills_while_affected_by_tactical' },
+      'Crowsbane': { amount: 100, type: 'zombie_kills_while_affected_by_tactical' },
     },
 
     warzone: {
@@ -144,8 +144,42 @@ const specialCamouflages = {
     },
 
     zombies: {
+      'Glacial Blast': { amount: 100, type: 'zombie_kills_after_using_field_upgrade' },
+      'Entropy': { amount: 75, type: 'armored_zombie_kills' },
+    },
+
+    warzone: {
       '?': null,
       '??': null,
+    },
+  },
+
+  'Kilo 141': {
+    multiplayer: {
+      '?': null,
+      '??': null,
+    },
+
+    zombies: {
+      Netspore: { amount: 5, type: 'critical_kills_rapidly', times: 15 },
+      Jasper: { amount: 300, type: 'kills_with_cryo_freeze_equipped' },
+    },
+
+    warzone: {
+      '?': null,
+      '??': null,
+    },
+  },
+
+  'CR-56 AMAX': {
+    multiplayer: {
+      '?': null,
+      '??': null,
+    },
+
+    zombies: {
+      'Yellow Tiger': { amount: 300, type: 'kills_at_rare_rarity_or_higher' },
+      'Everfrost': { amount: 100, type: 'zombie_kills_while_affected_by_tactical' },
     },
 
     warzone: {

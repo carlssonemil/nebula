@@ -8,13 +8,47 @@ const specialCamouflages = {
     },
 
     zombies: {
-      Starsync: { amount: 300, type: 'hipfire_kills' },
+      'Starsync': { amount: 300, type: 'hipfire_kills' },
       'Tempt Fate': { amount: 30, type: 'parasite_kills' },
     },
 
     warzone: {
       Synthora: { amount: 5, type: 'kills_while_moving' },
-      Guidance: { amount: 5, type: 'consecutive_kills_without_taking_damage', times: 5},
+      Guidance: { amount: 5, type: 'consecutive_kills_without_taking_damage', times: 5 },
+    },
+  },
+
+  'D1.3 Sector': {
+    multiplayer: {
+      '?': null,
+      '??': null,
+    },
+
+    zombies: {
+      'Moontrail': { amount: 100, type: 'zombie_kills_while_affected_by_tactical' },
+      'Gutter Ball': { amount: 300, type: 'kills_while_pack_a_punched' },
+    },
+
+    warzone: {
+      '?': null,
+      '??': null,
+    },
+  },
+
+  'Nail Gun': {
+    multiplayer: {
+      '?': null,
+      '??': null,
+    },
+
+    zombies: {
+      Chasm: { amount: 300, type: 'kills_while_pack_a_punched' },
+      Fangflash: { amount: 300, type: 'kills_with_cryo_freeze_equipped' },
+    },
+
+    warzone: {
+      '?': null,
+      '??': null,
     },
   },
 }
@@ -83,9 +117,9 @@ export default {
 
         // Mastery
         'Gold Tiger': { amount: 5, type: 'kills_while_most_wanted' },
-        "King's Ransom": { amount: 3, type: 'kills_without_dying', times: 2},
+        "King's Ransom": { amount: 3, type: 'kills_without_dying', times: 2 },
         'Catalyst': { amount: 5, type: 'kills_on_affected_enemies_with_tacticals' },
-        'Abyss': { amount: 5, type: 'kills_without_dying', times: 1},
+        'Abyss': { amount: 5, type: 'kills_without_dying', times: 1 },
       },
     }
 

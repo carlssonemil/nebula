@@ -313,7 +313,8 @@
       "triple_kills": "{amount} من القتلات الثلاثية",
       "vermin_eliminations": "تم إقصاء {amount} من Vermin",
       "vermin_kills": "تم قتل {amount} من Vermin",
-      "zombie_kills_while_affected_by_tactical": "تم قتل {amount} من الزومبي أثناء تأثرهم بتكتيكك"
+      "zombie_kills_while_affected_by_tactical": "تم قتل {amount} من الزومبي أثناء تأثرهم بتكتيكك",
+      "zombie_kills_after_using_field_upgrade": "احصل على {amount} عملية قتل بعد وقت قصير من استخدام الترقية الميدانية"
     }
   },
   "calling_card_categories": {},

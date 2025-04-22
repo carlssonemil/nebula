@@ -2,11 +2,11 @@
   "general": {
     "about": "À propos",
     "alert": {
-        "development_notice": "Le tracker est actuellement en développement actif et peut comporter des bugs ou des fonctionnalités incomplètes.",
-        "encounter_issues": "Si vous rencontrez des problèmes, veuillez ",
-        "missing_images_notice": "Nous sommes conscients des images de camouflage manquantes et des exigences incorrectes.",
-        "thank_you": "Merci pour votre compréhension, et bon grind !",
-        "report_link_text": "les signaler sur GitHub"
+      "development_notice": "Le tracker est actuellement en développement actif et peut comporter des bugs ou des fonctionnalités incomplètes.",
+      "encounter_issues": "Si vous rencontrez des problèmes, veuillez ",
+      "missing_images_notice": "Nous sommes conscients des images de camouflage manquantes et des exigences incorrectes.",
+      "thank_you": "Merci pour votre compréhension, et bon grind !",
+      "report_link_text": "les signaler sur GitHub"
     },
     "add_to": "Ajouter à",
     "all": "Tous",
@@ -326,7 +326,8 @@
       "triple_kills": "{amount} triples éliminations",
       "vermin_eliminations": "{amount} éliminations de Vermines",
       "vermin_kills": "{amount} éliminations de Vermines",
-      "zombie_kills_while_affected_by_tactical": "{amount} éliminations de Zombies affectés par vos équipements tactiques"
+      "zombie_kills_while_affected_by_tactical": "{amount} éliminations de Zombies affectés par vos équipements tactiques",
+      "zombie_kills_after_using_field_upgrade": "{amount} éliminations peu de temps après avoir utilisé l’amélioration de terrain"
     }
   },
   "calling_card_categories": {},

@@ -54,12 +54,12 @@ const specialCamouflages = {
 
   'AMR Mod 4': {
     multiplayer: {
-      Shadowthorn: { amount: 30, type: 'one_shot_kills' },
+      'Shadowthorn': { amount: 30, type: 'one_shot_kills' },
       'Tidal Harmony': { amount: 2, type: 'kills_without_reloading', times: 10 },
     },
 
     zombies: {
-      Scarthorn: { amount: 5, type: 'critical_kills_rapidly', times: 15 },
+      'Scarthorn': { amount: 5, type: 'critical_kills_rapidly', times: 15 },
       'Marine Swirl': { amount: 10, type: 'critical_kills_rapidly', times: 15 },
     },
 
@@ -69,6 +69,22 @@ const specialCamouflages = {
     },
   },
 
+  'HDR': {
+    multiplayer: {
+      '?': null,
+      '??': null,
+    },
+
+    zombies: {
+      'Lushbreeze': { amount: 300, type: 'kills_with_brain_rot_equipped' },
+      'Molten Hues': { amount: 30, type: 'parasite_kills' },
+    },
+
+    warzone: {
+      '?': null,
+      '??': null,
+    },
+  },
 }
 
 export default {
