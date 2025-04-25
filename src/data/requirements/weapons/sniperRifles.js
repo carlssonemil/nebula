@@ -3,13 +3,13 @@ import sniperRifles from '@/data/weapons/sniperRifles'
 const specialCamouflages = {
   'LW3A1 Frostline': {
     multiplayer: {
-      Copper: { amount: 50, type: 'kills_while_recon_combat_specialty_is_active' },
-      Permafrost: { amount: 2, type: 'kills_without_reloading', times: 10 },
+      'Copper': { amount: 50, type: 'kills_while_recon_combat_specialty_is_active' },
+      'Permafrost': { amount: 2, type: 'kills_without_reloading', times: 10 },
     },
 
     zombies: {
-      Strata: { amount: 300, type: 'kills_at_rare_rarity_or_higher' },
-      Eventide: { amount: 30, type: 'parasite_kills' },
+      'Strata': { amount: 300, type: 'kills_at_rare_rarity_or_higher' },
+      'Eventide': { amount: 30, type: 'parasite_kills' },
     },
 
     warzone: {
@@ -20,13 +20,13 @@ const specialCamouflages = {
 
   'SVD': {
     multiplayer: {
-      Pixelized: { amount: 50, type: 'kills_while_recon_combat_specialty_is_active' },
-      Patchwork: { amount: 50, type: 'kills_with_4x_or_higher_magnification_scope' },
+      'Pixelized': { amount: 50, type: 'kills_while_recon_combat_specialty_is_active' },
+      'Patchwork': { amount: 50, type: 'kills_with_4x_or_higher_magnification_scope' },
     },
 
     zombies: {
-      Cartridge: { amount: 300, type: 'kills_while_pack_a_punched' },
-      Integration: { amount: 5, type: 'critical_kills_rapidly', times: 15 },
+      'Cartridge': { amount: 300, type: 'kills_while_pack_a_punched' },
+      'Integration': { amount: 5, type: 'critical_kills_rapidly', times: 15 },
     },
 
     warzone: {
@@ -37,13 +37,13 @@ const specialCamouflages = {
 
   'LR 7.62': {
     multiplayer: {
-      Chaparral: { amount: 30, type: 'one_shot_kills' },
-      Nimbus: { amount: 15, type: 'longshot_kills' },
+      'Chaparral': { amount: 30, type: 'one_shot_kills' },
+      'Nimbus': { amount: 15, type: 'longshot_kills' },
     },
 
     zombies: {
-      Foxglove: { amount: 10, type: 'mangler_kills' },
-      Overcast: { amount: 300, type: 'kills_with_brain_rot_equipped' },
+      'Foxglove': { amount: 10, type: 'mangler_kills' },
+      'Overcast': { amount: 300, type: 'kills_with_brain_rot_equipped' },
     },
 
     warzone: {
@@ -71,8 +71,8 @@ const specialCamouflages = {
 
   'HDR': {
     multiplayer: {
-      '?': null,
-      '??': null,
+      'Meadow Bloom': { amount: 30, type: 'one_shot_kills' },
+      'Aurora Drip': { amount: 50, type: 'kills_with_4x_or_higher_magnification_scope' },
     },
 
     zombies: {

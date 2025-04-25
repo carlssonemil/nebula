@@ -20,8 +20,8 @@ const specialCamouflages = {
 
   'Grekhova': {
     multiplayer: {
-      Spin: { amount: 30, type: 'hipfire_kills' },
-      Dementer: { amount: 50, type: 'kills_while_enforcer_combat_specialty_is_active' },
+      'Spin': { amount: 30, type: 'hipfire_kills' },
+      'Dementer': { amount: 50, type: 'kills_while_enforcer_combat_specialty_is_active' },
     },
 
     zombies: {
@@ -37,13 +37,13 @@ const specialCamouflages = {
 
   'GS45': {
     multiplayer: {
-      Thistlevine: { amount: 30, type: 'point_blank_kills' },
-      Ragamuffin: { amount: 15, type: 'kills_shortly_after_switching_weapons' },
+      'Thistlevine': { amount: 30, type: 'point_blank_kills' },
+      'Ragamuffin': { amount: 15, type: 'kills_shortly_after_switching_weapons' },
     },
 
     zombies: {
-      Velvetine: { amount: 300, type: 'kills_at_rare_rarity_or_higher' },
-      Siamese: { amount: 300, type: 'hipfire_kills' },
+      'Velvetine': { amount: 300, type: 'kills_at_rare_rarity_or_higher' },
+      'Siamese': { amount: 300, type: 'hipfire_kills' },
     },
 
     warzone: {
@@ -54,13 +54,13 @@ const specialCamouflages = {
 
   'Stryder .22': {
     multiplayer: {
-      Ritual: { amount: 50, type: 'kills_while_moving' },
-      Transcend: { amount: 50, type: 'kills_while_recon_combat_specialty_is_active' },
+      'Ritual': { amount: 50, type: 'kills_while_moving' },
+      'Transcend': { amount: 50, type: 'kills_while_recon_combat_specialty_is_active' },
     },
 
     zombies: {
-      Wavy: { amount: 300, type: 'point_blank_kills' },
-      Condemn: { amount: 30, type: 'vermin_kills' },
+      'Wavy': { amount: 300, type: 'point_blank_kills' },
+      'Condemn': { amount: 30, type: 'vermin_kills' },
     },
 
     warzone: {

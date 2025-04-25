@@ -8,8 +8,8 @@ const specialCamouflages = {
     },
 
     zombies: {
-      Vivid: { amount: 10, type: 'mangler_kills' },
-      Justice: { amount: 300, type: 'hipfire_kills' },
+      'Vivid': { amount: 10, type: 'mangler_kills' },
+      'Justice': { amount: 300, type: 'hipfire_kills' },
     },
 
     warzone: {
@@ -20,8 +20,8 @@ const specialCamouflages = {
 
   'XMG': {
     multiplayer: {
-      Buzz: { amount: 2, type: 'kills_without_releasing_trigger', times: 5 },
-      Snakebite: { amount: 50, type: 'kills_while_moving' },
+      'Buzz': { amount: 2, type: 'kills_without_releasing_trigger', times: 5 },
+      'Snakebite': { amount: 50, type: 'kills_while_moving' },
     },
 
     zombies: {
@@ -54,13 +54,13 @@ const specialCamouflages = {
 
   'Feng 82': {
     multiplayer: {
-      '?': null,
-      '??': null,
+      'Sunblossom': { amount: 50, type: 'kills_with_suppressor' },
+      'Bloodfang': { amount: 2, type: 'kills_without_releasing_trigger', times: 5 },
     },
 
     zombies: {
-      '?': null,
-      '??': null,
+      'Asterwind': { amount: 30, type: 'vermin_kills' },
+      'Shadowfang': { amount: 300, type: 'kills_with_napalm_burst_equipped' },
     },
 
     warzone: {

@@ -3,13 +3,13 @@ import launchers from '@/data/weapons/launchers'
 const specialCamouflages = {
   'CIGMA 2B': {
     multiplayer: {
-      Policia: { amount: 10, type: 'direct_hit_kills' },
-      Abstract: { amount: 10, type: 'aerial_scorestreaks' },
+      'Policia': { amount: 10, type: 'direct_hit_kills' },
+      'Abstract': { amount: 10, type: 'aerial_scorestreaks' },
     },
 
     zombies: {
-      CBRNE: { amount: 300, type: 'kills_while_pack_a_punched' },
-      Technique: { amount: 75, type: 'armored_zombie_kills' },
+      'CBRNE': { amount: 300, type: 'kills_while_pack_a_punched' },
+      'Technique': { amount: 75, type: 'armored_zombie_kills' },
     },
 
     warzone: {
@@ -20,13 +20,13 @@ const specialCamouflages = {
 
   'HE-1': {
     multiplayer: {
-      Reboot: { amount: 10, type: 'one_shot_kills' },
-      Dreamer: { amount: 10, type: 'scorestreaks_or_enemy_equipment' },
+      'Reboot': { amount: 10, type: 'one_shot_kills' },
+      'Dreamer': { amount: 10, type: 'scorestreaks_or_enemy_equipment' },
     },
 
     zombies: {
-      Decrypt: { amount: 30, type: 'vermin_kills' },
-      Renewed: { amount: 300, type: 'kills_at_rare_rarity_or_higher' },
+      'Decrypt': { amount: 30, type: 'vermin_kills' },
+      'Renewed': { amount: 300, type: 'kills_at_rare_rarity_or_higher' },
     },
 
     warzone: {

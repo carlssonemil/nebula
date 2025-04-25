@@ -3,13 +3,13 @@ import subMachineGuns from '@/data/weapons/subMachineGuns'
 const specialCamouflages = {
   'C9': {
     multiplayer: {
-      Heatwave: { amount: 30, type: 'kills_shortly_after_sprinting' },
-      Panther: { amount: 50, type: 'kills_with_suppressor' },
+      'Heatwave': { amount: 30, type: 'kills_shortly_after_sprinting' },
+      'Panther': { amount: 50, type: 'kills_with_suppressor' },
     },
 
     zombies: {
-      Infrared: { amount: 30, type: 'parasite_kills' },
-      Lynx: { amount: 300, type: 'kills_while_pack_a_punched' },
+      'Infrared': { amount: 30, type: 'parasite_kills' },
+      'Lynx': { amount: 300, type: 'kills_while_pack_a_punched' },
     },
 
     warzone: {
@@ -20,13 +20,13 @@ const specialCamouflages = {
 
   'KSV': {
     multiplayer: {
-      Kakapo: { amount: 2, type: 'kills_without_reloading', times: 10 },
-      Throwback: { amount: 50, type: 'kills_while_moving' },
+      'Kakapo': { amount: 2, type: 'kills_without_reloading', times: 10 },
+      'Throwback': { amount: 50, type: 'kills_while_moving' },
     },
 
     zombies: {
-      Phoenix: { amount: 300, type: 'kills_with_dead_wire_equipped' },
-      Throttle: { amount: 300, type: 'hipfire_kills' },
+      'Phoenix': { amount: 300, type: 'kills_with_dead_wire_equipped' },
+      'Throttle': { amount: 300, type: 'hipfire_kills' },
     },
 
     warzone: {
@@ -42,8 +42,8 @@ const specialCamouflages = {
     },
 
     zombies: {
-      Solemn: { amount: 5, type: 'critical_kills_rapidly', times: 15 },
-      Aloha: { amount: 300, type: 'kills_while_pack_a_punched' },
+      'Solemn': { amount: 5, type: 'critical_kills_rapidly', times: 15 },
+      'Aloha': { amount: 300, type: 'kills_while_pack_a_punched' },
     },
 
     warzone: {
@@ -59,8 +59,8 @@ const specialCamouflages = {
     },
 
     zombies: {
-      Solvent: { amount: 300, type: 'kills_with_cryo_freeze_equipped' },
-      Shadow: { amount: 10, type: 'kills_without_reloading', times: 15 },
+      'Solvent': { amount: 300, type: 'kills_with_cryo_freeze_equipped' },
+      'Shadow': { amount: 10, type: 'kills_without_reloading', times: 15 },
     },
 
     warzone: {
@@ -76,8 +76,8 @@ const specialCamouflages = {
     },
 
     zombies: {
-      Plunge: { amount: 300, type: 'kills_with_napalm_burst_equipped' },
-      Distress: { amount: 300, type: 'hipfire_kills' },
+      'Plunge': { amount: 300, type: 'kills_with_napalm_burst_equipped' },
+      'Distress': { amount: 300, type: 'hipfire_kills' },
     },
 
     warzone: {
@@ -88,8 +88,8 @@ const specialCamouflages = {
 
   'Kompakt 92': {
     multiplayer: {
-      Kingfisher: { amount: 30, type: 'hipfire_kills' },
-      Blackthorn: { amount: 30, type: 'kills_shortly_after_sprinting' },
+      'Kingfisher': { amount: 30, type: 'hipfire_kills' },
+      'Blackthorn': { amount: 30, type: 'kills_shortly_after_sprinting' },
     },
 
     zombies: {
@@ -122,13 +122,13 @@ const specialCamouflages = {
 
   'PPSh-41': {
     multiplayer: {
-      '?': null,
-      '??': null,
+      'Skythrone': { amount: 2, type: 'kills_without_taking_damage', times: 30 },
+      'Mirage': { amount: 5, type: 'kills_in_a_single_match', times: 3 },
     },
 
     zombies: {
-      '?': null,
-      '??': null,
+      'Cloudcrest': { amount: 75, type: 'armored_zombie_kills' },
+      'Wasteland': { amount: 300, type: 'kills_at_rare_rarity_or_higher' },
     },
 
     warzone: {
