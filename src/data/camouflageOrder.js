@@ -139,7 +139,7 @@ const specialOrder = [
 
   // PPSh-41
   'Skythrone',
-  'Mirage',
+  'Mirage_PPSh-41',
   'Cloudcrest',
   'Wasteland',
 
