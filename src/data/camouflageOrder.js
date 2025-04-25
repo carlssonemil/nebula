@@ -20,6 +20,17 @@ const militaryOrder = [
   'Oceanic',
   'Whiteout',
   'Purple Tiger',
+
+  // Warzone
+  'Quartz',
+  'Tundra',
+  'Canyon',
+  'Pine',
+  'Undergrowth',
+  'Snakeskin',
+  'Siberia',
+  'Smolder',
+  'Blue Tiger',
 ]
 
 const specialOrder = [

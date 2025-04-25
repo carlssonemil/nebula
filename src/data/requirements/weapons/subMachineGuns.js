@@ -188,15 +188,15 @@ export default {
 
       warzone: {
         // Military
-        'Granite': { amount: 5, type: 'eliminations' },
-        'Woodland': { amount: 10, type: 'eliminations' },
-        'Savanna': { amount: 15, type: 'eliminations' },
-        'Splinter': { amount: 20, type: 'eliminations' },
-        'Moss': { amount: 30, type: 'eliminations' },
-        'Shade': { amount: 40, type: 'eliminations' },
-        'Digital': { amount: 50, type: 'eliminations' },
-        'Tide': { amount: 75, type: 'eliminations' },
-        'Red Tiger': { amount: 100, type: 'eliminations' },
+        'Quartz': { amount: 5, type: 'eliminations' },
+        'Tundra': { amount: 10, type: 'eliminations' },
+        'Canyon': { amount: 15, type: 'eliminations' },
+        'Pine': { amount: 20, type: 'eliminations' },
+        'Undergrowth': { amount: 30, type: 'eliminations' },
+        'Snakeskin': { amount: 40, type: 'eliminations' },
+        'Siberia': { amount: 50, type: 'eliminations' },
+        'Smolder': { amount: 75, type: 'eliminations' },
+        'Blue Tiger': { amount: 100, type: 'eliminations' },
 
         // Special
         ...specialCamouflages[weapon]?.warzone,
