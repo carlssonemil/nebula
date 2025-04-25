@@ -1,6 +1,6 @@
 import specials from '@/data/weapons/specials'
 
-const specialCamouflages = {
+const militaryCamouflagesOverrides = {
   'Sirin 9mm': {
     multiplayer: {
       // Override Military (only special that requires headshots, for now...)
@@ -13,9 +13,6 @@ const specialCamouflages = {
       'Digital': { amount: 50, type: 'headshots' },
       'Tide': { amount: 75, type: 'headshots' },
       'Red Tiger': { amount: 100, type: 'headshots' },
-
-      'Nebulon': { amount: 30, type: 'kills_shortly_after_sprinting' },
-      'Enchanted': { amount: 50, type: 'kills_while_moving' },
     },
 
     zombies: {
@@ -29,7 +26,18 @@ const specialCamouflages = {
       'Oceanic': { amount: 1000, type: 'critical_kills' },
       'Whiteout': { amount: 1500, type: 'critical_kills' },
       'Purple Tiger': { amount: 2000, type: 'critical_kills' },
+    },
+  }
+}
 
+const specialCamouflages = {
+  'Sirin 9mm': {
+    multiplayer: {
+      'Nebulon': { amount: 30, type: 'kills_shortly_after_sprinting' },
+      'Enchanted': { amount: 50, type: 'kills_while_moving' },
+    },
+
+    zombies: {
       'Starsync': { amount: 300, type: 'hipfire_kills' },
       'Tempt Fate': { amount: 30, type: 'parasite_kills' },
     },
@@ -90,6 +98,9 @@ export default {
         'Tide': { amount: 75, type: 'kills' },
         'Red Tiger': { amount: 100, type: 'kills' },
 
+        // Military overrides
+        ...militaryCamouflagesOverrides[weapon]?.multiplayer,
+
         // Special
         ...specialCamouflages[weapon]?.multiplayer,
 
@@ -112,6 +123,9 @@ export default {
         'Whiteout': { amount: 1500, type: 'kills' },
         'Purple Tiger': { amount: 2000, type: 'kills' },
 
+        // Military overrides
+        ...militaryCamouflagesOverrides[weapon]?.zombies,
+
         // Special
         ...specialCamouflages[weapon]?.zombies,
 
@@ -133,6 +147,9 @@ export default {
         'Siberia': { amount: 50, type: 'eliminations' },
         'Smolder': { amount: 75, type: 'eliminations' },
         'Blue Tiger': { amount: 100, type: 'eliminations' },
+
+        // Military overrides
+        ...militaryCamouflagesOverrides[weapon]?.warzone,
 
         // Special
         ...specialCamouflages[weapon]?.warzone,

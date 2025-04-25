@@ -123,8 +123,8 @@ const specialCamouflages = {
   'PPSh-41': {
     multiplayer: {
       'Skythrone': { amount: 2, type: 'kills_without_taking_damage', times: 30 },
-      // AEK-973 also has a camouflage named Mirage (should probably find a better way to do this...)
-      'Mirage_PPSh-41': { amount: 5, type: 'kills_in_a_single_match', times: 3 },
+      // AEK-973 also has a camouflage named Mirage, uniqueName will be used for image
+      'Mirage': { amount: 5, type: 'kills_in_a_single_match', times: 3, uniqueName: 'Mirage_PPSh-41' },
     },
 
     zombies: {

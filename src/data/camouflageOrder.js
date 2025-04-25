@@ -1,5 +1,5 @@
 const militaryOrder = [
-  // Military
+  // Multiplayer
   'Granite',
   'Woodland',
   'Savanna',
@@ -386,17 +386,22 @@ const specialOrder = [
 ]
 
 const masteryOrder = [
+  // Multiplayer
   'Gold',
-  'Mystic Gold',
-  'Gold Tiger',
   'Diamond',
-  'Opal',
-  "King's Ransom",
   'Dark Spine',
-  'Afterlife',
-  'Catalyst',
   'Dark Matter',
+
+  // Zombies
+  'Mystic Gold',
+  'Opal',
+  'Afterlife',
   'Nebula',
+
+  // Warzone
+  'Gold Tiger',
+  "King's Ransom",
+  'Catalyst',
   'Abyss',
 ]
 
