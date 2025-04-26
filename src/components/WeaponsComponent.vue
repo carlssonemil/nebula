@@ -126,7 +126,7 @@ export default {
       const modeCamouflages = {
         multiplayer: ['Gold', 'Diamond', 'Dark Spine', 'Dark Matter'],
         zombies: ['Mystic Gold', 'Opal', 'Afterlife', 'Nebula'],
-        warzone: ["King's Ransom", 'Gold Tiger', 'Catalyst', 'Abyssal'],
+        warzone: ["King's Ransom", 'Gold Tiger', 'Catalyst', 'Abyss'],
       }
 
       const categoryWeapons = this.weapons[title]

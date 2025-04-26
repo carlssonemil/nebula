@@ -133,10 +133,10 @@ export default {
         ...specialCamouflages[weapon]?.warzone,
 
         // Mastery
-        'Gold Tiger': null,
-        "King's Ransom": null,
-        'Catalyst': null,
-        'Abyss': null,
+        'Gold Tiger': { amount: 5, type: 'kills_while_most_wanted' },
+        "King's Ransom": { amount: 3, type: 'kills_without_dying', times: 5 },
+        'Catalyst': { amount: 5, type: 'kills_on_affected_enemies_with_tacticals' },
+        'Abyss': { amount: 5, type: 'kills_without_dying', times: 2 },
       },
     }
 

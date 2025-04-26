@@ -85,24 +85,24 @@ export default {
 
       warzone: {
         // Military
-        'Quartz': { amount: 5, type: 'eliminations' },
-        'Tundra': { amount: 10, type: 'eliminations' },
-        'Canyon': { amount: 15, type: 'eliminations' },
-        'Pine': { amount: 20, type: 'eliminations' },
-        'Undergrowth': { amount: 30, type: 'eliminations' },
-        'Snakeskin': { amount: 40, type: 'eliminations' },
-        'Siberia': { amount: 50, type: 'eliminations' },
-        'Smolder': { amount: 75, type: 'eliminations' },
-        'Blue Tiger': { amount: 100, type: 'eliminations' },
+        'Quartz': { amount: 2, type: 'eliminations' },
+        'Tundra': { amount: 4, type: 'eliminations' },
+        'Canyon': { amount: 8, type: 'eliminations' },
+        'Pine': { amount: 12, type: 'eliminations' },
+        'Undergrowth': { amount: 16, type: 'eliminations' },
+        'Snakeskin': { amount: 20, type: 'eliminations' },
+        'Siberia': { amount: 25, type: 'eliminations' },
+        'Smolder': { amount: 30, type: 'eliminations' },
+        'Blue Tiger': { amount: 40, type: 'eliminations' },
 
         // Special
         ...specialCamouflages[weapon]?.warzone,
 
         // Mastery
-        'Gold Tiger': null,
-        "King's Ransom": null,
-        'Catalyst': null,
-        'Abyss': null,
+        'Gold Tiger': { amount: 3, type: 'destructions_sm', times: 2},
+        "King's Ransom": { amount: 3, type: 'kills_sm', times: 2 },
+        'Catalyst': { amount: 5, type: 'destructions_sm', times: 1 },
+        'Abyss': { amount: 5, type: 'kills_sm', times: 1 },
       },
     }
 
