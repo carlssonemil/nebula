@@ -1,13 +1,6 @@
 {
   "general": {
     "about": "Sobre",
-    "alert": {
-      "development_notice": "O rastreador está em desenvolvimento ativo e pode conter bugs ou recursos incompletos.",
-      "encounter_issues": "Se você encontrar algum problema, por favor ",
-      "missing_images_notice": "Estamos cientes das imagens de camuflagem ausentes e requisitos incorretos.",
-      "thank_you": "Obrigado pela sua compreensão e boa diversão!",
-      "report_link_text": "relate no GitHub"
-    },
     "add_to": "Adicionar a",
     "all": "Todos",
     "calling_cards": "Cartão de Visita | Cartões de Visita",
