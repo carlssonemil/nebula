@@ -25,6 +25,7 @@
 import { mapState, mapActions } from 'pinia'
 import { useStore } from '@/stores/store'
 import locales from '@/i18n/locales'
+import { updateHtmlLocaleAttributes } from '@/utils/utils'
 
 export default {
   data() {
@@ -64,6 +65,7 @@ export default {
       preferences.locale = locale
       this.setPreferences(preferences)
       this.storeProgress()
+      updateHtmlLocaleAttributes(locale)
     },
 
     flagCode(locale) {

@@ -78,6 +78,20 @@ const getStoredLocale = () => {
   if (preferences) return preferences.locale
 }
 
+const updateHtmlLocaleAttributes = (locale) => {
+  const htmlTag = document.querySelector('html')
+
+  if (htmlTag) {
+    htmlTag.setAttribute('lang', locale)
+
+    if (locale.includes('ar')) {
+      htmlTag.setAttribute('dir', 'rtl')
+    } else {
+      htmlTag.removeAttribute('dir')
+    }
+  }
+}
+
 export {
   convertToKebabCase,
   copyToClipboard,
@@ -87,4 +101,5 @@ export {
   groupBy,
   roundToTwoDecimals,
   getStoredLocale,
+  updateHtmlLocaleAttributes,
 }

@@ -1,5 +1,5 @@
 import { createI18n } from 'vue-i18n'
-import { getStoredLocale } from '../utils/utils'
+import { getStoredLocale, updateHtmlLocaleAttributes } from '../utils/utils'
 import locales from './locales.js'
 
 const locale = getStoredLocale()
@@ -10,5 +10,7 @@ const i18n = createI18n({
   fallbackLocale: DEFAULT_LOCALE,
   messages: Object.assign(locales),
 })
+
+updateHtmlLocaleAttributes(locale || DEFAULT_LOCALE)
 
 export { DEFAULT_LOCALE, locales, i18n }
