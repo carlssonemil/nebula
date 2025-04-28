@@ -1,5 +1,5 @@
 const militaryOrder = [
-  // Military
+  // Multiplayer
   'Granite',
   'Woodland',
   'Savanna',
@@ -20,6 +20,17 @@ const militaryOrder = [
   'Oceanic',
   'Whiteout',
   'Purple Tiger',
+
+  // Warzone
+  'Quartz',
+  'Tundra',
+  'Canyon',
+  'Pine',
+  'Undergrowth',
+  'Snakeskin',
+  'Siberia',
+  'Smolder',
+  'Blue Tiger',
 ]
 
 const specialOrder = [
@@ -27,6 +38,7 @@ const specialOrder = [
   '?',
   '??',
 
+  // Assault Rifles
   // XM4
   'Muddled',
   'Machina',
@@ -75,8 +87,25 @@ const specialOrder = [
   'Sunny Splash',
   'Crowsbane',
 
-  //Cypher 091
+  // Cypher 091
+  'Scorching Slash',
+  'Rotmist',
+  'Glacial Blast',
+  'Entropy',
 
+  // Kilo 141
+  'Virusscape',
+  'Jade',
+  'Netspore',
+  'Jasper',
+
+  // CR-56 AMAX
+  'Teal Tiger',
+  'Glade',
+  'Yellow Tiger',
+  'Everfrost',
+
+  // Sub Machine Guns
   // C9
   'Heatwave',
   'Panther',
@@ -120,7 +149,12 @@ const specialOrder = [
   'Limewave',
 
   // PPSh-41
+  'Skythrone',
+  'Mirage_PPSh-41',
+  'Cloudcrest',
+  'Wasteland',
 
+  // Light Machine Guns
   // PU-21
   'Neon Bath',
   'Vigilance',
@@ -140,7 +174,12 @@ const specialOrder = [
   'Other World',
 
   // Feng 82
+  'Sunblossom',
+  'Bloodfang',
+  'Asterwind',
+  'Shadowfang',
 
+  // Shotguns
   // Marine SP
   'Blueberry Lime',
   'Chromed Out',
@@ -159,6 +198,7 @@ const specialOrder = [
   'Cinder Surge',
   'Lunar Flutter',
 
+  // Marksman Rifles
   // SWAT 5.56
   'Ectoplasm',
   'Lumberjack',
@@ -184,7 +224,12 @@ const specialOrder = [
   'Manta',
 
   // TR2
+  'Chompers',
+  'Restless',
+  'Nibbles',
+  'Burrowed',
 
+  // Sniper Rifles
   // LW3A1 Frostline
   'Copper',
   'Permafrost',
@@ -209,6 +254,13 @@ const specialOrder = [
   'Scarthorn',
   'Marine Swirl',
 
+  // HDR
+  'Meadow Bloom',
+  'Aurora Drip',
+  'Lushbreeze',
+  'Molten Hues',
+
+  // Handguns
   // 9mm PM
   'Exabyte',
   'Blue Ring',
@@ -233,6 +285,7 @@ const specialOrder = [
   'Wavy',
   'Condemn',
 
+  // Launchers
   // CIGMA 2B
   'Policia',
   'Abstract',
@@ -245,6 +298,7 @@ const specialOrder = [
   'Decrypt',
   'Renewed',
 
+  // Melee
   // Knife
   'Dying Envy',
   'Tropical Leopard',
@@ -275,25 +329,79 @@ const specialOrder = [
   'Tragic Tomb',
   'Shock Leopard',
 
+  // Skateboard
+  'Ripple',
+  'Bliss',
+  'Aphotic',
+  'Elation',
+
+  // Katanas
+  'Coral Crush',
+  'Tempest',
+  'Tiki Mist',
+  'Brinehelm',
+
+  // Bo Staff
+  'Havoc',
+  'Legacy',
+  'Destruction',
+  'Heirloom',
+
+  // Sai
+  'Seep',
+  'Crestdeep',
+  'Slime',
+  'Trenchfall',
+
+  // Nunchaku
+  'Nested',
+  'Radiate',
+  'Skybound',
+  'Focus',
+
+  // Kali Sticks
+  'Dunebreak',
+  'Driftscape',
+  'Reefshade',
+  'Iceline',
+
+  // Specials
   // Sirin 9mm
   'Nebulon',
   'Enchanted',
   'Starsync',
   'Tempt Fate',
+
+  // D1.3 Sector
+  'Meteorite',
+  'Fast Times',
+  'Moontrail',
+  'Gutter Ball',
+
+  // Nail Gun
+  'Brimshard',
+  'Shockstripe',
+  'Chasm',
+  'Fangflash',
 ]
 
 const masteryOrder = [
+  // Multiplayer
   'Gold',
-  'Mystic Gold',
-  'Gold Tiger',
   'Diamond',
-  'Opal',
-  "King's Ransom",
   'Dark Spine',
-  'Afterlife',
-  'Catalyst',
   'Dark Matter',
+
+  // Zombies
+  'Mystic Gold',
+  'Opal',
+  'Afterlife',
   'Nebula',
+
+  // Warzone
+  'Gold Tiger',
+  "King's Ransom",
+  'Catalyst',
   'Abyss',
 ]
 

@@ -3,13 +3,13 @@ import launchers from '@/data/weapons/launchers'
 const specialCamouflages = {
   'CIGMA 2B': {
     multiplayer: {
-      Policia: { amount: 10, type: 'direct_hit_kills' },
-      Abstract: { amount: 10, type: 'aerial_scorestreaks' },
+      'Policia': { amount: 10, type: 'direct_hit_kills' },
+      'Abstract': { amount: 10, type: 'aerial_scorestreaks' },
     },
 
     zombies: {
-      CBRNE: { amount: 300, type: 'kills_while_pack_a_punched' },
-      Technique: { amount: 75, type: 'armored_zombie_kills' },
+      'CBRNE': { amount: 300, type: 'kills_while_pack_a_punched' },
+      'Technique': { amount: 75, type: 'armored_zombie_kills' },
     },
 
     warzone: {
@@ -20,13 +20,13 @@ const specialCamouflages = {
 
   'HE-1': {
     multiplayer: {
-      Reboot: { amount: 10, type: 'one_shot_kills' },
-      Dreamer: { amount: 10, type: 'scorestreaks_or_enemy_equipment' },
+      'Reboot': { amount: 10, type: 'one_shot_kills' },
+      'Dreamer': { amount: 10, type: 'scorestreaks_or_enemy_equipment' },
     },
 
     zombies: {
-      Decrypt: { amount: 30, type: 'vermin_kills' },
-      Renewed: { amount: 300, type: 'kills_at_rare_rarity_or_higher' },
+      'Decrypt': { amount: 30, type: 'vermin_kills' },
+      'Renewed': { amount: 300, type: 'kills_at_rare_rarity_or_higher' },
     },
 
     warzone: {
@@ -85,24 +85,24 @@ export default {
 
       warzone: {
         // Military
-        'Granite': { amount: 5, type: 'eliminations' },
-        'Woodland': { amount: 10, type: 'eliminations' },
-        'Savanna': { amount: 15, type: 'eliminations' },
-        'Splinter': { amount: 20, type: 'eliminations' },
-        'Moss': { amount: 30, type: 'eliminations' },
-        'Shade': { amount: 40, type: 'eliminations' },
-        'Digital': { amount: 50, type: 'eliminations' },
-        'Tide': { amount: 75, type: 'eliminations' },
-        'Red Tiger': { amount: 100, type: 'eliminations' },
+        'Quartz': { amount: 2, type: 'eliminations' },
+        'Tundra': { amount: 4, type: 'eliminations' },
+        'Canyon': { amount: 8, type: 'eliminations' },
+        'Pine': { amount: 12, type: 'eliminations' },
+        'Undergrowth': { amount: 16, type: 'eliminations' },
+        'Snakeskin': { amount: 20, type: 'eliminations' },
+        'Siberia': { amount: 25, type: 'eliminations' },
+        'Smolder': { amount: 30, type: 'eliminations' },
+        'Blue Tiger': { amount: 40, type: 'eliminations' },
 
         // Special
         ...specialCamouflages[weapon]?.warzone,
 
         // Mastery
-        'Gold Tiger': null,
-        "King's Ransom": null,
-        'Catalyst': null,
-        'Abyss': null,
+        'Gold Tiger': { amount: 3, type: 'destructions_sm', times: 2},
+        "King's Ransom": { amount: 3, type: 'kills_sm', times: 2 },
+        'Catalyst': { amount: 5, type: 'destructions_sm', times: 1 },
+        'Abyss': { amount: 5, type: 'kills_sm', times: 1 },
       },
     }
 

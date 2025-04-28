@@ -57,7 +57,8 @@
           v-tippy="{ placement: 'bottom' }">
           <div :class="['inner', { completed: camouflage.completed }]">
             <img
-              :src="`https://emilcarlsson.se/nebula/camouflages/${convertToKebabCase(
+              :src="`https://emilcarlsson.se/nebula/camouflages/${weaponCamouflageImageName(
+                weapon,
                 camouflage.name
               )}.png`"
               :alt="camouflage.name"
@@ -96,7 +97,8 @@
           v-tippy="{ placement: 'bottom' }">
           <div :class="['inner', { completed: camouflage.completed }]">
             <img
-              :src="`https://emilcarlsson.se/nebula/camouflages/${convertToKebabCase(
+              :src="`https://emilcarlsson.se/nebula/camouflages/${weaponCamouflageImageName(
+                weapon,
                 camouflage.name
               )}.png`"
               :alt="camouflage.name"
@@ -255,6 +257,22 @@ export default {
       } else {
         return this.$t(`challenges.types.${type}`, { amount })
       }
+    },
+
+    weaponCamouflageImageName(weapon, camouflage)
+    {
+      let requirement = 'TBA'
+      let imageName = camouflage
+
+      requirement = this.weaponRequirements[weapon.name][this.progressKey][camouflage]
+
+      // if this camouflage has a uniqueName, use it as the image name
+      // this is required as some camouflages may have the same name
+      if (requirement && Object.keys(requirement).length > 0 && requirement.uniqueName) {
+        imageName = requirement.uniqueName
+      }
+
+      return `${convertToKebabCase(imageName)}`
     },
   },
 }

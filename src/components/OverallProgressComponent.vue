@@ -2,9 +2,7 @@
   <div class="overall-progress-component">
     <div class="counter" v-for="(counter, name) in overallProgress" :key="name">
       <img
-        :src="`https://emilcarlsson.se/nebula/camouflages/${name
-          .toLowerCase()
-          .replace(' ', '-')}.png`"
+        :src="`https://emilcarlsson.se/nebula/camouflages/${convertToKebabCase(name)}.png`"
         :alt="name"
         onerror="javascript:this.src='/military-gradient.svg'" />
       <p>
@@ -18,6 +16,7 @@
 <script>
 import { mapState } from 'pinia'
 import { useStore } from '@/stores/store'
+import { convertToKebabCase } from '@/utils/utils'
 
 export default {
   props: {
@@ -52,7 +51,7 @@ export default {
           'Gold Tiger': weapons.filter((w) => w.progress.warzone['Gold Tiger']).length,
           "King's Ransom": weapons.filter((w) => w.progress.warzone["King's Ransom"]).length,
           'Catalyst': weapons.filter((w) => w.progress.warzone['Catalyst']).length,
-          'Abyssal': weapons.filter((w) => w.progress.warzone['Abyssal']).length,
+          'Abyss': weapons.filter((w) => w.progress.warzone['Abyss']).length,
         }
       } else {
         return {}
@@ -62,6 +61,10 @@ export default {
     totalWeapons() {
       return this.weapons.length
     },
+  },
+
+  methods: {
+    convertToKebabCase,
   },
 }
 </script>

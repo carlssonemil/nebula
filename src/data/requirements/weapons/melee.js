@@ -20,18 +20,18 @@ const specialCamouflages = {
 
   'Baseball Bat': {
     multiplayer: {
-      Torment: { amount: 15, type: 'kills_shortly_after_switching_weapons' },
-      Slip: { type: 'one_kill_without_taking_damage', times: 30 },
+      'Torment': { amount: 15, type: 'kills_shortly_after_switching_weapons' },
+      'Slip': { type: 'one_kill_without_taking_damage', times: 30 },
     },
 
     zombies: {
-      Banished: { amount: 300, type: 'kills_at_rare_rarity_or_higher' },
-      Contort: { amount: 30, type: 'vermin_kills' },
+      'Banished': { amount: 300, type: 'kills_at_rare_rarity_or_higher' },
+      'Contort': { amount: 30, type: 'vermin_kills' },
     },
 
     warzone: {
-      Spooked: { amount: 5, type: 'kills_while_affected_by_tactical' },
-      Skew: { amount: 5, type: 'kills_under_uav' },
+      'Spooked': { amount: 5, type: 'kills_while_affected_by_tactical' },
+      'Skew': { amount: 5, type: 'kills_under_uav' },
     },
   },
 
@@ -55,7 +55,7 @@ const specialCamouflages = {
   'Cleaver': {
     multiplayer: {
       'Creepy Crypt': { amount: 50, type: 'kills_while_strategist_combat_specialty_is_active' },
-      'Luminous Leopard': { amount: 30, type: 'one_kill_without_taking_damage' },
+      'Luminous Leopard': { type: 'one_kill_without_taking_damage', times: 30 },
     },
 
     zombies: {
@@ -71,13 +71,13 @@ const specialCamouflages = {
 
   'Skateboard': {
     multiplayer: {
-      '?': null,
-      '??': null,
+      'Ripple': { amount: 15, type: 'kills_shortly_after_switching_weapons' },
+      'Bliss': { type: 'one_kill_without_taking_damage', times: 30 },
     },
 
     zombies: {
-      Aphotic: { amount: 100, type: 'zombie_kills_after_using_field_upgrade' },
-      Elation: { amount: 300, type: 'kills_while_pack_a_punched' },
+      'Aphotic': { amount: 100, type: 'zombie_kills_after_using_field_upgrade' },
+      'Elation': { amount: 300, type: 'kills_while_pack_a_punched' },
     },
 
     warzone: {
@@ -88,8 +88,8 @@ const specialCamouflages = {
 
   'Katanas': {
     multiplayer: {
-      '?': null,
-      '??': null,
+      'Coral Crush': { amount: 5, type: 'kills_in_a_single_match', times: 3 },
+      'Tempest': { amount: 50, type: 'kills_while_enforcer_combat_specialty_is_active' },
     },
 
     zombies: {
@@ -105,13 +105,13 @@ const specialCamouflages = {
 
   'Bo Staff': {
     multiplayer: {
-      '?': null,
-      '??': null,
+      'Havoc': { amount: 50, type: 'kills_while_strategist_combat_specialty_is_active' },
+      'Legacy': { amount: 5, type: 'kills_in_a_single_match', times: 3 },
     },
 
     zombies: {
-      Destruction: { amount: 300, type: 'kills_with_dead_wire_equipped' },
-      Heirloom: { amount: 30, type: 'parasite_kills' },
+      'Destruction': { amount: 300, type: 'kills_with_dead_wire_equipped' },
+      'Heirloom': { amount: 30, type: 'parasite_kills' },
     },
 
     warzone: {
@@ -122,13 +122,13 @@ const specialCamouflages = {
 
   'Sai': {
     multiplayer: {
-      '?': null,
-      '??': null,
+      'Seep': { amount: 50, type: 'kills_while_recon_combat_specialty_is_active' },
+      'Crestdeep': { type: 'one_kill_without_taking_damage', times: 30 },
     },
 
     zombies: {
-      Slime: { amount: 300, type: 'kills_with_napalm_burst_equipped' },
-      Trenchfall: { amount: 10, type: 'mangler_kills' },
+      'Slime': { amount: 300, type: 'kills_with_napalm_burst_equipped' },
+      'Trenchfall': { amount: 10, type: 'mangler_kills' },
     },
 
     warzone: {
@@ -139,13 +139,13 @@ const specialCamouflages = {
 
   'Nunchaku': {
     multiplayer: {
-      '?': null,
-      '??': null,
+      'Nested': { type: 'one_kill_without_taking_damage', times: 30 },
+      'Radiate': { amount: 15, type: 'kills_shortly_after_switching_weapons' },
     },
 
     zombies: {
-      Skybound: { amount: 300, type: 'kills_with_brain_rot_equipped' },
-      Focus: { amount: 30, type: 'vermin_eliminations' },
+      'Skybound': { amount: 300, type: 'kills_with_brain_rot_equipped' },
+      'Focus': { amount: 30, type: 'vermin_eliminations' },
     },
 
     warzone: {
@@ -156,13 +156,13 @@ const specialCamouflages = {
 
   'Kali Sticks': {
     multiplayer: {
-      '?': null,
-      '??': null,
+      'Dunebreak': { amount: 50, type: 'kills_while_recon_combat_specialty_is_active' },
+      'Driftscape': { amount: 5, type: 'kills_in_a_single_match', times: 3 },
     },
 
     zombies: {
-      Reefshade: { amount: 30, type: 'vermin_eliminations' },
-      Iceline: { amount: 300, type: 'kills_with_cryo_freeze_equipped' },
+      'Reefshade': { amount: 30, type: 'vermin_eliminations' },
+      'Iceline': { amount: 300, type: 'kills_with_cryo_freeze_equipped' },
     },
 
     warzone: {
@@ -221,24 +221,24 @@ export default {
 
       warzone: {
         // Military
-        'Granite': { amount: 5, type: 'eliminations' },
-        'Woodland': { amount: 10, type: 'eliminations' },
-        'Savanna': { amount: 15, type: 'eliminations' },
-        'Splinter': { amount: 20, type: 'eliminations' },
-        'Moss': { amount: 30, type: 'eliminations' },
-        'Shade': { amount: 40, type: 'eliminations' },
-        'Digital': { amount: 50, type: 'eliminations' },
-        'Tide': { amount: 75, type: 'eliminations' },
-        'Red Tiger': { amount: 100, type: 'eliminations' },
+        'Quartz': { amount: 2, type: 'eliminations' },
+        'Tundra': { amount: 5, type: 'eliminations' },
+        'Canyon': { amount: 10, type: 'eliminations' },
+        'Pine': { amount: 15, type: 'eliminations' },
+        'Undergrowth': { amount: 20, type: 'eliminations' },
+        'Snakeskin': { amount: 25, type: 'eliminations' },
+        'Siberia': { amount: 30, type: 'eliminations' },
+        'Smolder': { amount: 40, type: 'eliminations' },
+        'Blue Tiger': { amount: 50, type: 'eliminations' },
 
         // Special
         ...specialCamouflages[weapon]?.warzone,
 
         // Mastery
-        'Gold Tiger': null,
-        "King's Ransom": null,
-        'Catalyst': null,
-        'Abyss': null,
+        'Gold Tiger': { amount: 3, type: 'kills_while_most_wanted' },
+        "King's Ransom": { amount: 3, type: 'kills_without_dying', times: 2 },
+        'Catalyst': { amount: 3, type: 'kills_on_affected_enemies_with_tacticals' },
+        'Abyss': { amount: 5, type: 'kills_without_dying', times: 1 },
       },
     }
 

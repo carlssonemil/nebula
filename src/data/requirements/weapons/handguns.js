@@ -20,8 +20,8 @@ const specialCamouflages = {
 
   'Grekhova': {
     multiplayer: {
-      Spin: { amount: 30, type: 'hipfire_kills' },
-      Dementer: { amount: 50, type: 'kills_while_enforcer_combat_specialty_is_active' },
+      'Spin': { amount: 30, type: 'hipfire_kills' },
+      'Dementer': { amount: 50, type: 'kills_while_enforcer_combat_specialty_is_active' },
     },
 
     zombies: {
@@ -37,13 +37,13 @@ const specialCamouflages = {
 
   'GS45': {
     multiplayer: {
-      Thistlevine: { amount: 30, type: 'point_blank_kills' },
-      Ragamuffin: { amount: 15, type: 'kills_shortly_after_switching_weapons' },
+      'Thistlevine': { amount: 30, type: 'point_blank_kills' },
+      'Ragamuffin': { amount: 15, type: 'kills_shortly_after_switching_weapons' },
     },
 
     zombies: {
-      Velvetine: { amount: 300, type: 'kills_at_rare_rarity_or_higher' },
-      Siamese: { amount: 300, type: 'hipfire_kills' },
+      'Velvetine': { amount: 300, type: 'kills_at_rare_rarity_or_higher' },
+      'Siamese': { amount: 300, type: 'hipfire_kills' },
     },
 
     warzone: {
@@ -54,13 +54,13 @@ const specialCamouflages = {
 
   'Stryder .22': {
     multiplayer: {
-      Ritual: { amount: 50, type: 'kills_while_moving' },
-      Transcend: { amount: 50, type: 'kills_while_recon_combat_specialty_is_active' },
+      'Ritual': { amount: 50, type: 'kills_while_moving' },
+      'Transcend': { amount: 50, type: 'kills_while_recon_combat_specialty_is_active' },
     },
 
     zombies: {
-      Wavy: { amount: 300, type: 'point_blank_kills' },
-      Condemn: { amount: 30, type: 'vermin_kills' },
+      'Wavy': { amount: 300, type: 'point_blank_kills' },
+      'Condemn': { amount: 30, type: 'vermin_kills' },
     },
 
     warzone: {
@@ -119,24 +119,24 @@ export default {
 
       warzone: {
         // Military
-        'Granite': { amount: 5, type: 'eliminations' },
-        'Woodland': { amount: 10, type: 'eliminations' },
-        'Savanna': { amount: 15, type: 'eliminations' },
-        'Splinter': { amount: 20, type: 'eliminations' },
-        'Moss': { amount: 30, type: 'eliminations' },
-        'Shade': { amount: 40, type: 'eliminations' },
-        'Digital': { amount: 50, type: 'eliminations' },
-        'Tide': { amount: 75, type: 'eliminations' },
-        'Red Tiger': { amount: 100, type: 'eliminations' },
+        'Quartz': { amount: 5, type: 'eliminations' },
+        'Tundra': { amount: 10, type: 'eliminations' },
+        'Canyon': { amount: 15, type: 'eliminations' },
+        'Pine': { amount: 20, type: 'eliminations' },
+        'Undergrowth': { amount: 30, type: 'eliminations' },
+        'Snakeskin': { amount: 40, type: 'eliminations' },
+        'Siberia': { amount: 50, type: 'eliminations' },
+        'Smolder': { amount: 75, type: 'eliminations' },
+        'Blue Tiger': { amount: 100, type: 'eliminations' },
 
         // Special
         ...specialCamouflages[weapon]?.warzone,
 
         // Mastery
-        'Gold Tiger': null,
-        "King's Ransom": null,
-        'Catalyst': null,
-        'Abyss': null,
+        'Gold Tiger': { amount: 3, type: 'kills_while_most_wanted' },
+        "King's Ransom": { amount: 3, type: 'kills_without_dying', times: 2 },
+        'Catalyst': { amount: 3, type: 'kills_on_affected_enemies_with_tacticals' },
+        'Abyss': { amount: 5, type: 'kills_without_dying', times: 1 },
       },
     }
 
