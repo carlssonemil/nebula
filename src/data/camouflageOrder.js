@@ -154,6 +154,12 @@ const specialOrder = [
   'Cloudcrest',
   'Wasteland',
 
+  // Ladra
+  'Dataglow',
+  'Broken',
+  'Duskcode',
+  'Fissure',
+
   // Light Machine Guns
   // PU-21
   'Neon Bath',
