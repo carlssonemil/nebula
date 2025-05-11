@@ -137,6 +137,23 @@ const specialCamouflages = {
       '??': null,
     },
   },
+
+  'Ladra': {
+    multiplayer: {
+      'Dataglow': { amount: 5, type: 'kills_in_a_single_match', times: 3 },
+      'Broken': { amount: 50, type: 'kills_while_moving' },
+    },
+
+    zombies: {
+      'Duskcode': { amount: 5, type: 'critical_kills_rapidly', times: 15 },
+      'Fissure': { amount: 300, type: 'kills_while_pack_a_punched' },
+    },
+
+    warzone: {
+      '?': null,
+      '??': null,
+    },
+  },
 }
 
 export default {
