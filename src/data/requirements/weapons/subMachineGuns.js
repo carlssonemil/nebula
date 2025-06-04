@@ -154,6 +154,23 @@ const specialCamouflages = {
       '??': null,
     },
   },
+
+    'LC10': {
+    multiplayer: {
+      'Metroplex': { amount: 30, type: 'hipfire_kills' },
+      'Fluctuate': { amount: 50, type: 'kills_while_moving' },
+    },
+
+    zombies: {
+      'Urban Spire': { amount: 300, type: 'point_blank_kills' },
+      'Seethe': { amount: 300, type: 'kills_while_pack_a_punched' },
+    },
+
+    warzone: {
+      'Cosmopolis': { amount: 5, type: 'kills_in_a_single_match', times: 3 },
+      'Oscillation': { amount: 5, type: 'kills_shortly_after_sprinting' },
+    },
+  },
 }
 
 export default {

@@ -187,6 +187,23 @@ const specialCamouflages = {
       '??': null,
     },
   },
+
+    'FFAR 1': {
+    multiplayer: {
+      'Strain': { type: 'one_kill_without_taking_damage', times: 30 },
+      'Ruche': { amount: 50, type: 'kills_while_strategist_combat_specialty_is_active' },
+    },
+
+    zombies: {
+      'Blight': { amount: 5, type: 'critical_kills_rapidly', times: 15 },
+      'Crease': { amount: 100, type: 'zombie_kills_while_affected_by_tactical' },
+    },
+
+    warzone: {
+      'Plague': { amount: 5, type: 'kills_in_a_single_match', times: 3 },
+      'Crimp': { amount: 5, type: 'kills_shortly_after_sprinting' },
+    },
+  },
 }
 
 export default {
