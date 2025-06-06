@@ -105,6 +105,12 @@ const specialOrder = [
   'Yellow Tiger',
   'Everfrost',
 
+  // FFAR 1
+  'Strain',
+  'Ruche',
+  'Blight',
+  'Crease',
+
   // Sub Machine Guns
   // C9
   'Heatwave',
@@ -159,6 +165,12 @@ const specialOrder = [
   'Broken',
   'Duskcode',
   'Fissure',
+
+  // LC10
+  'Metroplex',
+  'Fluctuate',
+  'Urban Spire',
+  'Seethe',
 
   // Light Machine Guns
   // PU-21

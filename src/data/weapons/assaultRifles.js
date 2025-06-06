@@ -11,4 +11,5 @@ export default [
   'Cypher 091',
   'Kilo 141',
   'CR-56 AMAX',
+  'FFAR 1',
 ]
