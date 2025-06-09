@@ -85,6 +85,23 @@ const specialCamouflages = {
       '??': null,
     },
   },
+
+  'Essex Model 07': {
+    multiplayer: {
+      'Bleakvine': { amount: 50, type: 'kills_with_4x_or_higher_magnification_scope' },
+      'Fractal Mist': { amount: 50, type: 'kills_while_recon_combat_specialty_is_active' },
+    },
+
+    zombies: {
+      'Nettlesting': { amount: 300, type: 'kills_at_rare_rarity_or_higher' },
+      'Fractal Plunge': { amount: 300, type: 'kills_with_brain_rot_equipped' },
+    },
+
+    warzone: {
+      'Overgrowth':  { amount: 5, type: 'kills_shortly_after_sprinting' },
+      'Fractal Infect': { amount: 3, type: 'kills_without_dying', times: 5 },
+    },
+  },
 }
 
 export default {
