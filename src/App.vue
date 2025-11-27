@@ -6,6 +6,14 @@
     @toggleMobileNavigation="toggleMobileNavigation" />
 
   <main>
+    <div class="container" style="margin-bottom: 1.5rem">
+      <AlertComponent>
+        Looking for a tracker for Black Ops 7?
+        <a href="https://singularity-tracker.netlify.app/">You can find one here</a>! Good luck with
+        the grind! 🚀
+      </AlertComponent>
+    </div>
+
     <router-view v-slot="{ Component }">
       <transition name="page-fade" mode="out-in">
         <component :is="Component" />
