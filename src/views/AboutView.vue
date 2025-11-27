@@ -47,14 +47,15 @@
       </i18n-t>
     </p>
 
-    <h4>{{ $t('pages.about.support_me') }}</h4>
+    <!-- Hide support me section -->
+    <!-- <h4>{{ $t('pages.about.support_me') }}</h4>
     <p>
       <i18n-t keypath="pages.about.support_me_description" scope="global">
         <a href="https://www.buymeacoffee.com/emilcarlsson">{{
           $t('pages.about.support_me_link')
         }}</a>
       </i18n-t>
-    </p>
+    </p> -->
   </div>
 </template>
 

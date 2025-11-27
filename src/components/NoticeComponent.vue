@@ -22,9 +22,10 @@ export default {
   },
 
   mounted() {
-    setTimeout(() => {
-      this.showNotice = true
-    }, 15000)
+    // Disabled for now
+    // setTimeout(() => {
+    //   this.showNotice = true
+    // }, 15000)
   },
 }
 </script>
